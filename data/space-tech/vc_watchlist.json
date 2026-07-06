@@ -1,0 +1,20 @@
+{
+  "watchlist": [
+    {
+      "person_name": "Space Capital",
+      "firm": "Space Capital",
+      "rss_feeds": [
+        "https://spacecapital.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T23:10:10.380237"
+    },
+    {
+      "person_name": "Seraphim Space",
+      "firm": "Seraphim",
+      "rss_feeds": [
+        "https://seraphim.vc/feed/"
+      ],
+      "last_checked": "2026-07-06T23:10:10.380237"
+    }
+  ]
+}

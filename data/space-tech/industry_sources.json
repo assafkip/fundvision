@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "source_name": "SpaceNews",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://spacenews.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Space.com",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.space.com/feeds/all"
+      ]
+    },
+    {
+      "source_name": "NASASpaceflight",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.nasaspaceflight.com/feed/"
+      ]
+    },
+    {
+      "source_name": "TechCrunch Space",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://techcrunch.com/category/space/feed/"
+      ]
+    },
+    {
+      "source_name": "Via Satellite",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.satellitetoday.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Universe Today",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.universetoday.com/feed/"
+      ]
+    },
+    {
+      "source_name": "SpacePolicyOnline",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://spacepolicyonline.com/feed/"
+      ]
+    }
+  ]
+}

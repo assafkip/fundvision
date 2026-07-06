@@ -1,0 +1,28 @@
+{
+  "voices": [
+    {
+      "person_name": "Space Ambition",
+      "outlet_or_primary_affiliation": "Substack",
+      "rss_feeds": [
+        "https://spaceambition.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T23:10:10.380237"
+    },
+    {
+      "person_name": "Payload",
+      "outlet_or_primary_affiliation": "Payload Space",
+      "rss_feeds": [
+        "https://payloadspace.com/feed/"
+      ],
+      "last_checked": "2026-07-06T23:10:10.380237"
+    },
+    {
+      "person_name": "Ars Technica Space",
+      "outlet_or_primary_affiliation": "Ars Technica",
+      "rss_feeds": [
+        "https://feeds.arstechnica.com/arstechnica/science"
+      ],
+      "last_checked": "2026-07-06T23:10:10.380237"
+    }
+  ]
+}
