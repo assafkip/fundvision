@@ -1,0 +1,29 @@
+# FundVision
+
+> A live feed of who's funding, hiring, and moving across tech verticals. Pick your area — cybersecurity, fintech, AI/ML, healthtech, climate, edtech, marketing, or space tech — and get hourly VC and market signals straight from the source. Built by Assaf Kipnis (KTLYST Labs / ASK Consulting).
+
+## What this is
+FundVision watches the VCs, operators, and media voices of a chosen vertical and surfaces two kinds of signal: hard signals (new funds, new investments, actively looking, new thesis) and soft signals (market commentary, sector pain, portfolio wins, deep dives). Pure RSS, refreshed hourly, no login.
+
+## Areas
+- Cybersecurity
+- Fintech / Payments
+- AI / ML Infra
+- Healthtech / Bio
+- Climate / Energy
+- Edtech
+- Marketing / Ads
+- Space Tech
+
+## Key pages
+- [Live feed](https://fundvision.askconsulting.io/): pick an area, then filter hard vs soft, by firm, by theme, or search.
+
+## Team
+- Assaf Kipnis, Founder. KTLYST Labs / ASK Consulting.
+
+## Category
+A venture and market-signal feed for operators and investors. Not a CRM and not a database — a live reading of who is moving in your space, updated hourly.
+
+## Contact
+- Email: cole@ktlystlabs.com
+- Website: https://fundvision.askconsulting.io
