@@ -1,0 +1,36 @@
+{
+  "voices": [
+    {
+      "person_name": "David Roberts",
+      "outlet_or_primary_affiliation": "Volts",
+      "rss_feeds": [
+        "https://www.volts.wtf/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    },
+    {
+      "person_name": "Zeke Hausfather / Andrew Dessler",
+      "outlet_or_primary_affiliation": "The Climate Brink",
+      "rss_feeds": [
+        "https://www.theclimatebrink.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    },
+    {
+      "person_name": "Hannah Ritchie",
+      "outlet_or_primary_affiliation": "Sustainability by Numbers",
+      "rss_feeds": [
+        "https://www.sustainabilitybynumbers.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    },
+    {
+      "person_name": "Emily Atkin",
+      "outlet_or_primary_affiliation": "HEATED",
+      "rss_feeds": [
+        "https://heated.world/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    }
+  ]
+}

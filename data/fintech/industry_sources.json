@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "source_name": "TechCrunch Fintech",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://techcrunch.com/category/fintech/feed/"
+      ]
+    },
+    {
+      "source_name": "Finextra",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.finextra.com/rss/headlines.aspx"
+      ]
+    },
+    {
+      "source_name": "PYMNTS",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.pymnts.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Tearsheet",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://tearsheet.co/feed"
+      ]
+    },
+    {
+      "source_name": "Payments Dive",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.paymentsdive.com/feeds/news/"
+      ]
+    },
+    {
+      "source_name": "Banking Dive",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.bankingdive.com/feeds/news/"
+      ]
+    },
+    {
+      "source_name": "Crowdfund Insider",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.crowdfundinsider.com/feed/"
+      ]
+    },
+    {
+      "source_name": "The Payments Association",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://thepaymentsassociation.org/feed/"
+      ]
+    },
+    {
+      "source_name": "Sifted",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://sifted.eu/feed"
+      ]
+    }
+  ]
+}

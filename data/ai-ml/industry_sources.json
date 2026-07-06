@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "source_name": "TechCrunch AI",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://techcrunch.com/category/artificial-intelligence/feed/"
+      ]
+    },
+    {
+      "source_name": "VentureBeat AI",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://venturebeat.com/category/ai/feed/"
+      ]
+    },
+    {
+      "source_name": "The Verge AI",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      ]
+    },
+    {
+      "source_name": "MIT Technology Review AI",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+      ]
+    },
+    {
+      "source_name": "Ars Technica AI",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://arstechnica.com/ai/feed/"
+      ]
+    },
+    {
+      "source_name": "The Decoder",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://the-decoder.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Hugging Face Blog",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://huggingface.co/blog/feed.xml"
+      ]
+    },
+    {
+      "source_name": "Last Week in AI",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://lastweekin.ai/feed"
+      ]
+    }
+  ]
+}

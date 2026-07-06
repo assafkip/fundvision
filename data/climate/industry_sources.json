@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "source_name": "Canary Media",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.canarymedia.com/feed"
+      ]
+    },
+    {
+      "source_name": "Latitude Media",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.latitudemedia.com/feed"
+      ]
+    },
+    {
+      "source_name": "Grist",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://grist.org/feed/"
+      ]
+    },
+    {
+      "source_name": "Inside Climate News",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://insideclimatenews.org/feed/"
+      ]
+    },
+    {
+      "source_name": "Electrek",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://electrek.co/feed/"
+      ]
+    },
+    {
+      "source_name": "CleanTechnica",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://cleantechnica.com/feed/"
+      ]
+    },
+    {
+      "source_name": "TechCrunch Climate",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://techcrunch.com/category/climate/feed/"
+      ]
+    },
+    {
+      "source_name": "Carbon Brief",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.carbonbrief.org/feed/"
+      ]
+    },
+    {
+      "source_name": "WattTime",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.watttime.org/feed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "source_name": "MedCity News",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://medcitynews.com/feed/"
+      ]
+    },
+    {
+      "source_name": "STAT News",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.statnews.com/feed/"
+      ]
+    },
+    {
+      "source_name": "MobiHealthNews",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.mobihealthnews.com/feed"
+      ]
+    },
+    {
+      "source_name": "The Health Care Blog",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://thehealthcareblog.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Healthcare Dive",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.healthcaredive.com/feeds/news/"
+      ]
+    },
+    {
+      "source_name": "MedTech Dive",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.medtechdive.com/feeds/news/"
+      ]
+    },
+    {
+      "source_name": "Health Affairs",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.healthaffairs.org/action/showFeed?type=etoc&feed=rss&jc=hlthaff"
+      ]
+    }
+  ]
+}

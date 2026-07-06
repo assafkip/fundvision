@@ -1,0 +1,27 @@
+{
+  "voices": [
+    {
+      "person_name": "Nikhil Krishnan",
+      "outlet_or_primary_affiliation": "Out-Of-Pocket",
+      "rss_feeds": [
+        "https://outofpocket.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:37.420331"
+    },
+    {
+      "person_name": "Blake Madden",
+      "outlet_or_primary_affiliation": "Hospitalogy",
+      "rss_feeds": [
+        "https://hospitalogy.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:37.420331"
+    },
+    {
+      "person_name": "Adam J. Fein",
+      "outlet_or_primary_affiliation": "Drug Channels",
+      "rss_feeds": [
+        "https://www.drugchannels.net/feeds/posts/default"
+      ]
+    }
+  ]
+}

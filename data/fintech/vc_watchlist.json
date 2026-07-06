@@ -1,0 +1,36 @@
+{
+  "watchlist": [
+    {
+      "person_name": "QED Investors",
+      "firm": "QED Investors",
+      "rss_feeds": [
+        "https://www.qedinvestors.com/blog/rss.xml"
+      ],
+      "last_checked": "2026-07-06T22:12:34.495707"
+    },
+    {
+      "person_name": "Andreessen Horowitz (a16z / Future)",
+      "firm": "Andreessen Horowitz",
+      "rss_feeds": [
+        "https://future.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:34.495707"
+    },
+    {
+      "person_name": "Sheel Mohnot / Jake Gibson",
+      "firm": "Better Tomorrow Ventures",
+      "rss_feeds": [
+        "https://bettertomorrow.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:34.495707"
+    },
+    {
+      "person_name": "Lex Sokolin",
+      "firm": "Generative Ventures (Fintech Blueprint)",
+      "rss_feeds": [
+        "https://lex.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:34.495707"
+    }
+  ]
+}

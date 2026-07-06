@@ -1,0 +1,44 @@
+{
+  "voices": [
+    {
+      "person_name": "Michael B. Horn",
+      "outlet_or_primary_affiliation": "Christensen Institute",
+      "rss_feeds": [
+        "https://michaelbhorn.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    },
+    {
+      "person_name": "Matthew Tower",
+      "outlet_or_primary_affiliation": "EdTech Thoughts",
+      "rss_feeds": [
+        "https://matthewtower.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    },
+    {
+      "person_name": "Ben Kornell / Alex Sarlin",
+      "outlet_or_primary_affiliation": "EdTech Insiders",
+      "rss_feeds": [
+        "https://edtechinsiders.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    },
+    {
+      "person_name": "Josh Bersin",
+      "outlet_or_primary_affiliation": "The Josh Bersin Company",
+      "rss_feeds": [
+        "https://joshbersin.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    },
+    {
+      "person_name": "Phil Hill",
+      "outlet_or_primary_affiliation": "PhilOnEdTech",
+      "rss_feeds": [
+        "https://philhill.substack.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    }
+  ]
+}

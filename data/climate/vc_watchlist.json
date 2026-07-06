@@ -1,0 +1,28 @@
+{
+  "watchlist": [
+    {
+      "person_name": "Sightline Climate (CTVC)",
+      "firm": "Sightline Climate",
+      "rss_feeds": [
+        "https://www.ctvc.co/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    },
+    {
+      "person_name": "Jason Jacobs",
+      "firm": "MCJ Collective (My Climate Journey)",
+      "rss_feeds": [
+        "https://newsletter.mcj.vc/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    },
+    {
+      "person_name": "Lowercarbon Capital",
+      "firm": "Lowercarbon Capital",
+      "rss_feeds": [
+        "https://www.lowercarbon.com/feed"
+      ],
+      "last_checked": "2026-07-06T22:12:38.238728"
+    }
+  ]
+}

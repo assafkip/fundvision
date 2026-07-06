@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "source_name": "AdExchanger",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.adexchanger.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Digiday",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://digiday.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Marketing Dive",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.marketingdive.com/feeds/news/"
+      ]
+    },
+    {
+      "source_name": "Adweek",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.adweek.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Search Engine Land",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://searchengineland.com/feed"
+      ]
+    },
+    {
+      "source_name": "Social Media Today",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.socialmediatoday.com/feeds/news/"
+      ]
+    }
+  ]
+}

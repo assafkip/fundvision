@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "source_name": "EdSurge",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.edsurge.com/articles_rss"
+      ]
+    },
+    {
+      "source_name": "The 74",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.the74million.org/feed/"
+      ]
+    },
+    {
+      "source_name": "eSchool News",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.eschoolnews.com/feed/"
+      ]
+    },
+    {
+      "source_name": "Class Central Report",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.classcentral.com/report/feed/"
+      ]
+    },
+    {
+      "source_name": "Inside Higher Ed",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://www.insidehighered.com/rss.xml"
+      ]
+    },
+    {
+      "source_name": "The Hechinger Report",
+      "source_type": "news",
+      "rss_feeds": [
+        "https://hechingerreport.org/feed/"
+      ]
+    }
+  ]
+}

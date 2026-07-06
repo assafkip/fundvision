@@ -1,0 +1,36 @@
+{
+  "voices": [
+    {
+      "person_name": "Ben Thompson",
+      "outlet_or_primary_affiliation": "Stratechery",
+      "rss_feeds": [
+        "https://stratechery.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:40.427324"
+    },
+    {
+      "person_name": "Scott Brinker",
+      "outlet_or_primary_affiliation": "Chiefmartec",
+      "rss_feeds": [
+        "https://chiefmartec.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:40.427324"
+    },
+    {
+      "person_name": "Web Smith",
+      "outlet_or_primary_affiliation": "2PM",
+      "rss_feeds": [
+        "https://2pml.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:40.427324"
+    },
+    {
+      "person_name": "Rand Fishkin",
+      "outlet_or_primary_affiliation": "SparkToro",
+      "rss_feeds": [
+        "https://sparktoro.com/blog/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:40.427324"
+    }
+  ]
+}

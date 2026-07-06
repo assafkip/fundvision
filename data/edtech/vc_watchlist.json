@@ -1,0 +1,20 @@
+{
+  "watchlist": [
+    {
+      "person_name": "Reach Capital",
+      "firm": "Reach Capital",
+      "rss_feeds": [
+        "https://www.reachcapital.com/feed/"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    },
+    {
+      "person_name": "GSV Ventures",
+      "firm": "GSV Ventures",
+      "rss_feeds": [
+        "https://medium.com/feed/gsv-ventures"
+      ],
+      "last_checked": "2026-07-06T22:12:39.504071"
+    }
+  ]
+}
