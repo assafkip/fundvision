@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T22:09:54Z",
+  "generated": "2026-07-07T22:15:25Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
@@ -15,6 +15,7 @@
       "momentum_basis": "window",
       "hard_count": 37,
       "hard_ratio": 0.046,
+      "exit_count": 0,
       "talk_count": 744,
       "whitespace_score": 20.1,
       "rising": [
@@ -106,6 +107,7 @@
       "momentum_basis": "window",
       "hard_count": 13,
       "hard_ratio": 0.079,
+      "exit_count": 0,
       "talk_count": 138,
       "whitespace_score": 10.6,
       "rising": [
@@ -197,6 +199,7 @@
       "momentum_basis": "window",
       "hard_count": 12,
       "hard_ratio": 0.072,
+      "exit_count": 0,
       "talk_count": 151,
       "whitespace_score": 12.6,
       "rising": [
@@ -288,6 +291,7 @@
       "momentum_basis": "window",
       "hard_count": 6,
       "hard_ratio": 0.06,
+      "exit_count": 0,
       "talk_count": 88,
       "whitespace_score": 14.7,
       "rising": [
@@ -374,6 +378,7 @@
       "momentum_basis": "window",
       "hard_count": 5,
       "hard_ratio": 0.037,
+      "exit_count": 0,
       "talk_count": 124,
       "whitespace_score": 24.8,
       "rising": [
@@ -465,6 +470,7 @@
       "momentum_basis": "window",
       "hard_count": 4,
       "hard_ratio": 0.049,
+      "exit_count": 0,
       "talk_count": 75,
       "whitespace_score": 18.8,
       "rising": [
@@ -556,6 +562,7 @@
       "momentum_basis": "window",
       "hard_count": 0,
       "hard_ratio": 0.0,
+      "exit_count": 0,
       "talk_count": 80,
       "whitespace_score": 80.0,
       "rising": [
@@ -647,6 +654,7 @@
       "momentum_basis": "window",
       "hard_count": 5,
       "hard_ratio": 0.035,
+      "exit_count": 0,
       "talk_count": 123,
       "whitespace_score": 24.6,
       "rising": [
@@ -738,6 +746,7 @@
       "momentum_basis": "window",
       "hard_count": 10,
       "hard_ratio": 0.149,
+      "exit_count": 0,
       "talk_count": 53,
       "whitespace_score": 5.3,
       "rising": [
