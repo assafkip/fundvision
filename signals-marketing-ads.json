@@ -108,6 +108,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_4cc7beced7d5",
+    "person_name": "Marketing Dive",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "State Farm enlists IShowSpeed to keep season five of gaming series fresh",
+    "excerpt": "Reality-competition series &ldquo;Gamerhood&rdquo; will integrate Flowcode technology that uses QR codes to connect the brand with consumers.",
+    "source_url": "https://www.marketingdive.com/news/state-farm-ishowspeed-keeps-season-five-gaming-series-fresh/824308/",
+    "source_type": "news",
+    "source_date": "2026-07-07",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-07T08:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_0585c186f6bd",
     "person_name": "Jason Lemkin",
     "firm": "SaaStr Fund",
