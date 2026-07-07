@@ -1,21 +1,21 @@
 {
-  "last_run": "2026-07-07T19:00:04.126095",
+  "last_run": "2026-07-07T20:54:10.486247",
   "feeds_checked": {
-    "https://future.com/feed/": "2026-07-07T19:00:03.162049",
+    "https://future.com/feed/": "2026-07-07T20:53:40.081359",
     "https://outofpocket.substack.com/feed": "2026-07-07T00:59:01.628975",
-    "https://www.statnews.com/feed/": "2026-07-07T19:00:03.215038",
-    "https://www.healthcaredive.com/feeds/news/": "2026-07-07T19:00:03.292176",
-    "https://www.healthaffairs.org/action/showFeed?type=etoc&feed=rss&jc=hlthaff": "2026-07-07T19:00:03.840462",
-    "https://www.medtechdive.com/feeds/news/": "2026-07-07T19:00:03.374655",
-    "https://www.sequoiacap.com/feed/": "2026-07-07T19:00:03.357349",
-    "https://hospitalogy.com/feed/": "2026-07-07T19:00:03.065924",
-    "https://thehealthcareblog.com/feed/": "2026-07-07T19:00:03.448623",
+    "https://www.statnews.com/feed/": "2026-07-07T20:53:40.312191",
+    "https://www.healthcaredive.com/feeds/news/": "2026-07-07T20:53:40.259105",
+    "https://www.healthaffairs.org/action/showFeed?type=etoc&feed=rss&jc=hlthaff": "2026-07-07T20:53:40.698681",
+    "https://www.medtechdive.com/feeds/news/": "2026-07-07T20:53:40.254699",
+    "https://www.sequoiacap.com/feed/": "2026-07-07T20:53:40.246982",
+    "https://hospitalogy.com/feed/": "2026-07-07T20:53:40.152457",
+    "https://thehealthcareblog.com/feed/": "2026-07-07T20:54:06.595129",
     "https://www.mobihealthnews.com/feed": "2026-07-07T00:59:02.359957",
     "https://secondopinion.substack.com/feed": "2026-07-07T00:59:01.770990",
     "https://erictopol.substack.com/feed": "2026-07-07T00:59:01.699896",
-    "https://www.venrock.com/feed/": "2026-07-07T19:00:03.275117",
-    "https://www.digitalhealthwire.com/feed": "2026-07-07T19:00:04.010866",
+    "https://www.venrock.com/feed/": "2026-07-07T20:53:40.332710",
+    "https://www.digitalhealthwire.com/feed": "2026-07-07T20:53:41.176379",
     "https://www.thehealthcareblog.com/feed/": "2026-07-07T19:00:03.586595"
   },
-  "signals_generated": 253
+  "signals_generated": 264
 }
