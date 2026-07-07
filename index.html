@@ -75,7 +75,44 @@
   .lede h1 .hl { color: var(--accent); }
   .lede p { color: var(--ink-dim); font-size: 15px; margin: 14px 0 0; max-width: 60ch; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(238px, 1fr)); gap: 16px; padding-bottom: 100px; }
+  /* "Moving today" — who's investing right now (the hook) */
+  .today { padding: 20px 0 46px; }
+  body.in-area .today { display: none; }
+  .today-k { font-family: var(--mono); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--hard); margin-bottom: 8px; }
+  .tdrow { display: grid; grid-template-columns: minmax(150px,auto) 1fr minmax(110px,auto); gap: 20px; align-items: baseline; padding: 14px 6px; border-top: 1px solid rgba(45,45,58,.4); text-decoration: none; color: inherit; position: relative; transition: padding-left .28s cubic-bezier(.2,.7,.2,1), background .28s; }
+  .tdrow:first-of-type { border-top: none; }
+  .tdrow::after { content: ""; position: absolute; left: 0; bottom: -1px; height: 1px; width: 0; background: linear-gradient(90deg, var(--hard), transparent); transition: width .4s ease; }
+  .tdrow:hover::after { width: 100%; }
+  .tdrow:hover { padding-left: 16px; background: linear-gradient(90deg, rgba(198,255,61,.05), transparent 72%); }
+  .tdwho { font-size: 18px; font-weight: 800; color: var(--hard); letter-spacing: -.01em; }
+  .tdsum { font-size: 15px; color: var(--ink-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tdrow:hover .tdsum { color: var(--ink); }
+  .tdmeta { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); text-align: right; white-space: nowrap; }
+  @media (max-width: 720px) { .tdrow { grid-template-columns: 1fr; gap: 4px; } .tdmeta { text-align: left; } .tdsum { white-space: normal; } }
+
+  .grid { display: flex; flex-direction: column; padding-bottom: 90px; }
+  /* editorial market index — de-boxed rows floating on the field */
+  .mrow { display: grid; grid-template-columns: 40px minmax(0,1fr) minmax(120px,1.05fr) 96px 112px 26px; gap: 22px; align-items: center; padding: 24px 6px; border-top: 1px solid rgba(45,45,58,.45); cursor: pointer; position: relative; transition: padding-left .32s cubic-bezier(.2,.7,.2,1), background .32s; }
+  .mrow:last-child { border-bottom: 1px solid rgba(45,45,58,.45); }
+  .mrow::after { content: ""; position: absolute; left: 0; bottom: -1px; height: 1px; width: 0; background: linear-gradient(90deg, var(--accent), transparent); transition: width .45s ease; }
+  .mrow:hover::after { width: 100%; }
+  .mrow:hover { padding-left: 22px; background: linear-gradient(90deg, rgba(43,140,255,.06), transparent 72%); }
+  .mnum { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
+  .mname { font-size: clamp(22px, 3vw, 33px); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; }
+  .mrow:hover .mname { color: #fff; }
+  .mspark { height: 42px; width: 100%; opacity: .9; }
+  .mrow:hover .mspark { opacity: 1; }
+  .mrise { font-family: var(--mono); font-size: 12.5px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mnum2 { text-align: right; font-family: var(--mono); font-size: 25px; font-weight: 800; }
+  .mnum2 small { display: block; font-size: 9px; letter-spacing: .14em; color: var(--ink-faint); font-weight: 600; margin-top: 3px; }
+  .mgo { font-family: var(--mono); font-size: 19px; color: var(--ink-faint); text-align: right; transition: transform .3s cubic-bezier(.2,.7,.2,1), color .3s; }
+  .mrow:hover .mgo { color: var(--accent); transform: translateX(5px); }
+  @media (prefers-reduced-motion: no-preference) {
+    .mrow { animation: tileIn .5s cubic-bezier(.2,.7,.2,1) both; }
+    .mrow:nth-child(1){animation-delay:.03s} .mrow:nth-child(2){animation-delay:.08s} .mrow:nth-child(3){animation-delay:.13s} .mrow:nth-child(4){animation-delay:.18s}
+    .mrow:nth-child(5){animation-delay:.23s} .mrow:nth-child(6){animation-delay:.28s} .mrow:nth-child(7){animation-delay:.33s} .mrow:nth-child(8){animation-delay:.38s}
+  }
+  @media (max-width: 720px) { .mrow { grid-template-columns: 24px 1fr 58px 22px; gap: 12px; } .mrow .mspark, .mrow .mrise { display: none; } }
   .tile { position: relative; overflow: hidden; border-radius: 20px; min-height: 216px; padding: 22px 24px;
     background: rgba(19,19,27,.5); backdrop-filter: blur(12px); border: 1px solid rgba(45,45,58,.6);
     cursor: pointer; display: flex; flex-direction: column; justify-content: space-between;
@@ -104,7 +141,10 @@
   /* ---- Market intelligence band (landing) ---- */
   .intel { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding-bottom: 100px; }
   body.in-area .intel { display: none; }
-  .panel { background: rgba(19,19,27,.5); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(45,45,58,.6); border-radius: 20px; padding: 24px 26px; }
+  .intel { gap: 48px; padding-top: 8px; }
+  .panel { background: transparent; border: none; border-radius: 0; padding: 8px 0; }
+  .intel .panel + .panel { border-left: 1px solid rgba(45,45,58,.4); padding-left: 48px; }
+  @media (max-width: 720px) { .intel .panel + .panel { border-left: none; padding-left: 0; } }
   .panel h2 { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-dim); margin: 0 0 20px; }
   .panel .cap { color: var(--ink-faint); font-size: 12.5px; line-height: 1.5; margin: 16px 0 0; }
   .rbar { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; padding: 7px 0; }
@@ -156,17 +196,18 @@
   .search input { border: none; background: none; outline: none; color: var(--ink); font-family: var(--sans); font-size: 14px; width: 100%; }
   .search input::placeholder { color: var(--ink-faint); }
 
-  .feed { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .feed { display: grid; grid-template-columns: 1fr; gap: 0; }
   .datehead { grid-column: 1 / -1; font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-faint); margin: 20px 0 2px; padding-top: 10px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; }
   .datehead:first-child { margin-top: 0; padding-top: 0; border-top: none; }
   .datehead .dn { color: var(--ink-dim); }
   .item { display: flex; flex-direction: column; text-decoration: none; color: inherit;
-    background: rgba(19,19,27,.7); border: 1px solid rgba(45,45,58,.65); border-radius: 16px; padding: 20px;
-    transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; position: relative; overflow: hidden; }
-  .item::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent); opacity: 0; transition: opacity .16s; }
-  .item.hard::before { background: var(--hard); }
-  .item:hover { transform: translateY(-3px); border-color: var(--line-2); box-shadow: 0 18px 54px #00000075, 0 0 0 1px var(--accent-glow); }
-  .item:hover::before { opacity: 1; }
+    background: transparent; border: none; border-radius: 0; border-top: 1px solid rgba(45,45,58,.4); padding: 22px 6px;
+    position: relative; transition: padding-left .28s cubic-bezier(.2,.7,.2,1), background .28s; }
+  .item::before { content: ""; position: absolute; left: 0; top: -1px; height: 1px; width: 0; background: linear-gradient(90deg, var(--accent), transparent); transition: width .4s ease; }
+  .item.hard::before { background: linear-gradient(90deg, var(--hard), transparent); }
+  .item:hover { padding-left: 20px; background: linear-gradient(90deg, #ffffff05, transparent 72%); }
+  .item:hover::before { width: 100%; }
+  .item .excerpt { max-width: 78ch; }
   .item .head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
   .who { font-size: 17px; font-weight: 750; letter-spacing: -.01em; line-height: 1.25; }
   .firm { display: block; font-size: 13px; font-weight: 500; color: var(--ink-faint); margin-top: 2px; }
@@ -231,8 +272,15 @@
   <div class="lede">
     <div class="kicker">Live venture &amp; market signals · refreshed hourly</div>
     <h1>The market, <span class="hl">alive</span>. Pick a lane, read the room.</h1>
-    <p>Eight sectors, tracked from the source. Each tile is a live pulse — momentum, this week's volume, what people are talking about. Open one to drop into the feed.</p>
+    <p>Eight sectors, tracked from the source. Each row is a live market — momentum, this week's volume, what people are talking about. <span class="hl">Click any row</span> to drop into its feed.</p>
   </div>
+
+  <!-- LANDING: who's investing today -->
+  <section class="today" id="todaySec">
+    <div class="today-k" id="todayK">Moving today · investors active right now</div>
+    <div class="today-list" id="today"></div>
+  </section>
+
   <div class="grid" id="grid"></div>
 
   <!-- LANDING: cross-market intelligence -->
@@ -332,23 +380,37 @@ function sparkSVG(pts, cls) {
 /* ---- markets grid ---- */
 function renderGrid() {
   const ranked = (state.trends && state.trends.overall && state.trends.overall.momentum_ranked) || [];
-  el("grid").innerHTML = ranked.map(m => {
+  el("grid").innerHTML = ranked.map((m, i) => {
     const v = state.trends.verticals[m.id] || {};
     const rise = (v.rising && v.rising[0]) ? v.rising[0].term : "";
-    const heat = Math.round((m.hard_ratio || 0) * 100);
-    return `<div class="tile" data-area="${esc(m.id)}">
-      ${sparkSVG(m.sparkline || [0,0,0,0], "spark")}
-      <div class="thead">
-        <div class="tname">${esc(m.label)}</div>
-        <div class="tnum">${m.recent7}<small>THIS WEEK</small></div>
-      </div>
-      <div class="tfoot">
-        ${rise ? `<span class="trising">${esc(rise)}</span>` : ""}
-        <span class="theat">deal heat <b>${heat}%</b></span>
-      </div>
+    return `<div class="mrow" data-area="${esc(m.id)}">
+      <span class="mnum">${String(i + 1).padStart(2, "0")}</span>
+      <span class="mname">${esc(m.label)}</span>
+      ${sparkSVG(m.sparkline || [0,0,0,0], "mspark")}
+      <span class="mrise">${rise ? "&#8599; " + esc(rise) : ""}</span>
+      <span class="mnum2">${m.recent7}<small>THIS WEEK</small></span>
+      <span class="mgo" aria-hidden="true">&rarr;</span>
     </div>`;
   }).join("");
-  document.querySelectorAll(".tile").forEach(t => t.onclick = () => openArea(t.dataset.area));
+  document.querySelectorAll(".mrow").forEach(t => t.onclick = () => openArea(t.dataset.area));
+}
+
+/* ---- "Moving today": who's investing / active right now ---- */
+function renderToday() {
+  const h = (state.trends && state.trends.overall && state.trends.overall.highlights) || [];
+  const sec = el("todaySec");
+  if (!h.length) { sec.style.display = "none"; return; }
+  sec.style.display = "";
+  const scope = h[0].days <= 1 ? "today" : "this week";
+  el("todayK").textContent = `Moving ${scope} · investors active right now`;
+  el("today").innerHTML = h.slice(0, 6).map(x => {
+    const who = x.person || x.firm || "An investor";
+    return `<a class="tdrow" href="${esc(x.url || '#')}" target="_blank" rel="noopener">
+      <span class="tdwho">${esc(who)}</span>
+      <span class="tdsum">${esc(x.summary || "")}</span>
+      <span class="tdmeta">${esc(x.vertical)}</span>
+    </a>`;
+  }).join("");
 }
 
 /* ---- cross-market intelligence: rising bars + whitespace scatter ---- */
@@ -383,16 +445,23 @@ function renderIntel() {
 
 /* today's most active named investor in the open area (falls back to this week) */
 function topInvestorToday() {
+  const pick = (pool, scope) => {
+    if (!pool.length) return null;
+    const c = {}, label = {};
+    pool.forEach(x => { const k = x.person_name + "|" + x.firm; c[k] = (c[k] || 0) + 1; label[k] = { name: x.person_name, firm: x.firm }; });
+    const k = Object.keys(c).sort((a, b) => c[b] - c[a])[0];
+    return { ...label[k], count: c[k], scope };
+  };
   const vc = state.all.filter(x => x.source_kind === "vc");
   const named = state.all.filter(x => x.firm && !["news", "press"].includes((x.firm || "").toLowerCase()));
-  const base = vc.length ? vc : named;   // prefer real investors; fall back to named voices
-  let pool = base.filter(x => daysAgo(x.source_date) <= 0), scope = "today";
-  if (pool.length < 1) { pool = base.filter(x => daysAgo(x.source_date) <= 7); scope = "this week"; }
-  if (!pool.length) return null;
-  const c = {}, label = {};
-  pool.forEach(x => { const k = x.person_name + "|" + x.firm; c[k] = (c[k] || 0) + 1; label[k] = { name: x.person_name, firm: x.firm }; });
-  const top = Object.keys(c).sort((a, b) => c[b] - c[a])[0];
-  return { ...label[top], count: c[top], scope };
+  const windows = [[0, "today"], [7, "this week"], [99999, "recently"]];
+  for (const src of [vc, named]) {
+    for (const [days, scope] of windows) {
+      const r = pick(src.filter(x => daysAgo(x.source_date) <= days), scope);
+      if (r) return r;
+    }
+  }
+  return null;
 }
 
 /* ---- one area (drill in) ---- */
@@ -563,6 +632,7 @@ async function boot() {
   try { const r = await fetch("trends.json", { cache: "no-store" }); state.trends = await r.json(); } catch { state.trends = { verticals: {}, overall: { momentum_ranked: [], total_signals: 0 } }; }
   el("tracked").textContent = (state.trends.overall && state.trends.overall.total_signals) || "";
   renderGrid();
+  renderToday();
   renderIntel();
   const id = location.hash.replace("#", "");
   if (id && state.verticals.some(v => v.id === id)) openArea(id);

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T00:59:07Z",
+  "generated": "2026-07-07T01:09:55Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
@@ -906,6 +906,128 @@
         "term": "model",
         "count": 35,
         "delta": 31
+      }
+    ],
+    "highlights": [
+      {
+        "person": "Ron Shevlin",
+        "firm": "Cornerstone Advisors (Fintech Snark Tank)",
+        "summary": "Plaid Built a Better Risk Model (But Better Doesn't Always Win)",
+        "category": "market_commentary",
+        "url": "https://ronshevlin.substack.com/p/plaid-built-a-better-risk-model-but",
+        "date": "2026-07-06",
+        "vertical": "Fintech / Payments",
+        "vid": "fintech",
+        "days": 1,
+        "hard": 0
+      },
+      {
+        "person": "Tomasz Tunguz",
+        "firm": "Theory Ventures",
+        "summary": "AI Worldviews",
+        "category": "market_commentary",
+        "url": "https://www.tomtunguz.com/godless-hippies-ai-models-values/",
+        "date": "2026-07-06",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 1,
+        "hard": 0
+      },
+      {
+        "person": "Radical Ventures",
+        "firm": "Radical Ventures",
+        "summary": "The Future of AI Inference",
+        "category": "market_commentary",
+        "url": "https://radical.vc/the-future-of-ai-inference-2/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-of-ai-inference-2",
+        "date": "2026-07-06",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 1,
+        "hard": 0
+      },
+      {
+        "person": "Jason Lemkin",
+        "firm": "SaaStr Fund",
+        "summary": "By Year-End, Anthropic Will Out-Earn Every Public Software Company Except Microsoft",
+        "category": "portfolio_win",
+        "url": "https://www.saastr.com/by-year-end-anthropic-will-out-earn-every-public-software-company-except-microsoft/",
+        "date": "2026-07-06",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 1,
+        "hard": 0
+      },
+      {
+        "person": "Climate Drift",
+        "firm": "Climate Drift (accelerator)",
+        "summary": "$41B in May. Wall Street's largest clean energy IPO ever. A \u20ac2.2B carbon-neutral lithium close. And a $500M hedge fund bet on El Ni\u00f1o.",
+        "category": "portfolio_win",
+        "url": "https://climatedrift.substack.com/p/41b-in-may-wall-streets-largest-clean",
+        "date": "2026-07-06",
+        "vertical": "Climate / Energy",
+        "vid": "climate",
+        "days": 1,
+        "hard": 0
+      },
+      {
+        "person": "Seraphim Space",
+        "firm": "Seraphim",
+        "summary": "SpaceTech News Roundup \u2013 W/C 27.06.26",
+        "category": "market_commentary",
+        "url": "https://seraphim.vc/weekly-roundup/spacetech-news-roundup-w-c-27-06-26/",
+        "date": "2026-07-06",
+        "vertical": "Space Tech",
+        "vid": "space-tech",
+        "days": 1,
+        "hard": 0
+      },
+      {
+        "person": "Michael B. Horn",
+        "firm": "Education thinker / investor-adjacent",
+        "summary": "How well do you know education's critical thinkers?",
+        "category": "market_commentary",
+        "url": "https://michaelbhorn.substack.com/p/how-well-do-you-know-educations-critical",
+        "date": "2026-07-05",
+        "vertical": "Edtech",
+        "vid": "edtech",
+        "days": 2,
+        "hard": 0
+      },
+      {
+        "person": "Founders Fund",
+        "firm": "Founders Fund",
+        "summary": "Outbound Isn\u2019t Dead. AI Just Radically Changed How It Works.",
+        "category": "deep_dive",
+        "url": "https://www.saastr.com/outbound-isnt-dead-ai-just-radically-changed-how-it-works/",
+        "date": "2026-07-04",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 3,
+        "hard": 0
+      },
+      {
+        "person": "Lenny Rachitsky",
+        "firm": "Angel / Lenny's Newsletter",
+        "summary": "\ud83e\udde0 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
+        "category": "market_commentary",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning",
+        "date": "2026-07-04",
+        "vertical": "Marketing / Ads",
+        "vid": "marketing-ads",
+        "days": 3,
+        "hard": 0
+      },
+      {
+        "person": "Mario Gabriele",
+        "firm": "The Generalist / Generalist Capital",
+        "summary": "Welcome to GLP-World",
+        "category": "market_commentary",
+        "url": "https://www.generalist.com/p/generalist-intelligence-july-3",
+        "date": "2026-07-03",
+        "vertical": "Fintech / Payments",
+        "vid": "fintech",
+        "days": 4,
+        "hard": 0
       }
     ],
     "total_signals": 1157

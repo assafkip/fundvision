@@ -198,11 +198,34 @@ def main():
 
     per_vertical = {}
     all_signals = []
+    highlights = []  # "who's investing today" — hard signals across every market
     for v in verticals:
         vid = v["id"]
+        label = v.get("label", vid)
         signals = load_signals(vid)
         all_signals.extend(signals)
-        per_vertical[vid] = {"label": v.get("label", vid), **compute_vertical(signals, today)}
+        per_vertical[vid] = {"label": label, **compute_vertical(signals, today)}
+        for s in signals:
+            # "who's investing today" = actual tracked investors (vc source), deal-first
+            if s.get("source_kind") == "vc":
+                highlights.append({
+                    "person": s.get("person_name"), "firm": s.get("firm"),
+                    "summary": s.get("summary"), "category": s.get("signal_category"),
+                    "url": s.get("source_url"), "date": s.get("source_date"),
+                    "vertical": label, "vid": vid,
+                    "days": days_ago(s.get("source_date"), today) or 0,
+                    "hard": 1 if s.get("signal_type") == "hard" else 0,
+                })
+    # freshest first, real deals first; one row per investor
+    highlights.sort(key=lambda h: (h["days"], -h["hard"]))
+    seen, dedup = set(), []
+    for h in highlights:
+        k = (h["person"] or h["firm"] or "").lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        dedup.append(h)
+    highlights = dedup[:10]
 
     # Heartbeat: append a dated snapshot so week-over-week momentum becomes real
     # over time (RSS front-loads recent items, so single-snapshot momentum is noise).
@@ -253,6 +276,7 @@ def main():
         "overall": {
             "momentum_ranked": momentum_ranked,
             "rising": rising_topics(all_signals, today, limit=10),
+            "highlights": highlights,
             "total_signals": len(all_signals),
         },
     }
