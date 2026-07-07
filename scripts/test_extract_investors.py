@@ -75,6 +75,25 @@ def test_generic_head_phrases_dropped():
     assert filter_noise(["Air Street Capital"]) == ["Air Street Capital"]
 
 
+def test_noise_filter_drops_allcaps_garble():
+    # a garbled all-caps token (e.g. "TTCER") is not a firm
+    assert filter_noise(["TTCER"]) == []
+    assert filter_noise(["ABCDE"]) == []
+    # real all-caps VC acronyms survive (allowlist)
+    assert filter_noise(["ICONIQ"]) == ["ICONIQ"]
+    assert filter_noise(["DCVC"]) == ["DCVC"]
+    # short caps + a normal Title-case firm are untouched
+    assert filter_noise(["GV"]) == ["GV"]
+    assert filter_noise(["Acrew Capital"]) == ["Acrew Capital"]
+
+
+def test_noise_filter_drops_known_non_investor():
+    # "Sonar" is a company/product, not an investor — blocklisted
+    kept = filter_noise(["Sonar", "Acrew Capital"])
+    assert "Sonar" not in kept, kept
+    assert "Acrew Capital" in kept, kept
+
+
 def test_normalize_trims_and_dedupes_shape():
     assert normalize_firm("  Khosla Ventures.  ") == "Khosla Ventures"
     assert normalize_firm("Khosla   Ventures") == "Khosla Ventures"

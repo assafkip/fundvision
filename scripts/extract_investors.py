@@ -100,11 +100,41 @@ def extract_from_text(text):
     return out
 
 
+# All-caps VC acronyms that ARE real firms — kept despite the garble rule below.
+KNOWN_VC_ACRONYMS = {
+    "GV", "GGV", "NEA", "IVP", "DFJ", "CRV", "DCVC", "EQT", "TCV", "ICONIQ",
+    "SOSV", "USV", "RRE", "NFX", "M12", "SV", "IA", "QED", "83NORTH", "B37",
+}
+
+# Companies / products that keep getting mis-extracted as investors. Seed set;
+# extend as real feed noise surfaces (lowercased match).
+NOT_INVESTORS = {
+    "sonar", "google play", "android", "pixel", "chrome",
+}
+
+
+def _is_allcaps_garble(name):
+    """A single ALL-CAPS token of 4+ letters that is not a known VC acronym.
+
+    Catches mis-extractions like "TTCER" while keeping real acronyms (ICONIQ,
+    DCVC). Short caps (GV, NEA) and any name with a space or lowercase pass.
+    """
+    if " " in name or any(c.islower() for c in name):
+        return False
+    if sum(c.isalpha() for c in name) < 4:
+        return False
+    return name.upper() not in KNOWN_VC_ACRONYMS
+
+
 def filter_noise(names):
-    """Drop law firms, generic-head phrases, and person-name individuals."""
+    """Drop law firms, generic-head phrases, person names, non-investors, garble."""
     kept = []
     for name in names:
         if LAW_RE.search(name):
+            continue
+        if name.lower() in NOT_INVESTORS:
+            continue
+        if _is_allcaps_garble(name):
             continue
         head = name.split()[0] if name.split() else ""
         if head in GENERIC_HEADS:
@@ -146,7 +176,10 @@ def extract_investors(row, fetcher=None, llm=None, cache=None, stats=None):
     """
     url = row.get("source_url") or ""
     if cache is not None and url in cache:
-        return {"investors": cache[url], "method": "cache"}
+        # Re-apply the current filter to cached names so a tightened noise rule
+        # cleans stale cache entries (e.g. a garble name cached before the rule
+        # existed) without a re-fetch.
+        return {"investors": filter_noise(cache[url]), "method": "cache"}
 
     text = f"{row.get('summary', '')} {row.get('excerpt', '')}"
     names = filter_noise(extract_from_text(text))
