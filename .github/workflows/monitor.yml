@@ -40,10 +40,13 @@ jobs:
             python scripts/live_monitor.py --vertical "$v" --verbose || echo "vertical $v failed, continuing"
           done
 
+      - name: Compute trend analytics
+        run: python scripts/compute_trends.py
+
       - name: Check for changes
         id: check_changes
         run: |
-          git add -A signals-*.json data/
+          git add -A signals-*.json trends.json trends-history.json data/
           git diff --cached --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed
