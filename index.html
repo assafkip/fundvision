@@ -209,6 +209,18 @@
   .want-funds { margin: 11px 0 2px 34px; display: none; flex-wrap: wrap; gap: 6px; }
   .want.open .want-funds { display: flex; }
   .want-funds .chip { font-family: var(--mono); font-size: 11px; color: var(--ink-dim); background: var(--surface); border: 1px solid var(--line); padding: 3px 9px; border-radius: 999px; }
+  /* What these funds actually do — revealed thesis from announced deals (fund-intent.json) */
+  .does { margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line); }
+  .does-k { font-family: var(--mono); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px; }
+  .does-sub { font-size: 13px; color: var(--ink-faint); margin-bottom: 16px; max-width: 62ch; }
+  .does-cov { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); margin-bottom: 16px; }
+  .did { padding: 13px 0; border-bottom: 1px solid var(--line); }
+  .did:last-child { border-bottom: 0; }
+  .did-head { display: flex; align-items: baseline; gap: 12px; }
+  .did-fund { font-family: var(--serif); font-size: 18px; color: var(--ink); flex: 1; }
+  .did-count { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
+  .did-thesis { font-size: 13px; color: var(--ink-dim); margin: 6px 0 0; }
+  .does-empty { font-size: 13px; color: var(--ink-faint); max-width: 62ch; line-height: 1.5; }
   /* Overview top row: hot investors + trends, side by side above the grid */
   .toprow { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; padding: 20px 0 40px; }
   body.in-area .toprow { display: none; }
@@ -379,6 +391,12 @@
       <div class="topinv" id="topInvestor"></div>
       <div class="apulse" id="apulse"></div>
     </div>
+    <section class="does" id="doesSec" style="display:none">
+      <div class="does-k">What these funds actually do</div>
+      <div class="does-sub">Revealed thesis from announced deals in the live feed — where the money went, not what a bio says. Each fund shows the deal count behind it.</div>
+      <div class="does-cov" id="doesCov"></div>
+      <div id="doesBody"></div>
+    </section>
     <section class="wants" id="wantsSec" style="display:none">
       <div class="wants-k">What these funds want</div>
       <div class="wants-sub" id="wantsSub"></div>
@@ -414,7 +432,7 @@
 </main>
 
 <script>
-const state = { verticals: [], trends: null, fundCriteria: null, vertical: null, all: [], type: "all", firm: "", theme: "", q: "", when: 0 };
+const state = { verticals: [], trends: null, fundCriteria: null, fundIntent: null, vertical: null, all: [], type: "all", firm: "", theme: "", q: "", when: 0 };
 const el = id => document.getElementById(id);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const prettyCat = c => (c||"").replace(/_/g, " ");
@@ -560,6 +578,32 @@ function areaPulse(id) {
     ${rising}${movers ? `<span class="sep">·</span><span class="stat">movers: <b>${movers}</b></span>` : ""}`;
 }
 
+/* "What these funds actually do" — revealed thesis from announced deals (fund-intent.json).
+   Keyed by sector LABEL (by_vertical). Honest empty state when body-level
+   attribution has not yet run (regex-only, no key in CI). */
+function renderDoes(label) {
+  const sec = el("doesSec"), box = el("doesBody"), cov = el("doesCov");
+  const fi = state.fundIntent;
+  if (!sec) return;
+  if (!fi || !fi.coverage) { sec.style.display = "none"; return; }
+  sec.style.display = "";
+  const c = fi.coverage;
+  cov.textContent = `${c.deal_rows_seen} deal rows seen · ${c.deal_rows_attributed} attributed to a named investor · ${c.funds_tracked} funds with ${fi.min_recurrence}+ deals`;
+  const funds = (fi.by_vertical && fi.by_vertical[label]) || [];
+  if (!funds.length) {
+    box.innerHTML = `<div class="does-empty">No fund in this sector has ${fi.min_recurrence}+ announced deals attributed yet. Investor names live in article bodies; body-level attribution recovers them as the feed accumulates. Funds with no press or blog presence stay invisible here — by design, this reads deals, not bios.</div>`;
+    return;
+  }
+  box.innerHTML = funds.slice(0, 8).map(f => `
+    <div class="did">
+      <div class="did-head">
+        <span class="did-fund">${esc(f.fund)}</span>
+        <span class="did-count">${f.sector_count} here · ${f.coverage} total</span>
+      </div>
+      <div class="did-thesis">${esc(f.thesis)}</div>
+    </div>`).join("");
+}
+
 /* "What these funds want" — reads the deterministic fund-criteria.json rollup */
 function renderWants(id) {
   const sec = el("wantsSec"), box = el("wantsBody");
@@ -594,6 +638,7 @@ async function openArea(id) {
   el("areaName").textContent = v.label;
   el("areaBig").textContent = v.label.split(" ")[0];
   el("apulse").innerHTML = areaPulse(id);
+  renderDoes(v.label);
   renderWants(id);
   el("topInvestor").innerHTML = "";
   el("typeSeg").querySelectorAll("button").forEach(b => b.classList.toggle("on", b.dataset.type === "all"));
@@ -766,6 +811,7 @@ async function boot() {
   state.verticals = verticals;
   try { const r = await fetch("trends.json", { cache: "no-store" }); state.trends = await r.json(); } catch { state.trends = { verticals: {}, overall: { momentum_ranked: [], total_signals: 0 } }; }
   try { const r = await fetch("fund-criteria.json", { cache: "no-store" }); state.fundCriteria = await r.json(); } catch { state.fundCriteria = { verticals: {} }; }
+  try { const r = await fetch("fund-intent.json", { cache: "no-store" }); state.fundIntent = await r.json(); } catch { state.fundIntent = null; }
   el("tracked").textContent = (state.trends.overall && state.trends.overall.total_signals) || "";
   renderGrid();
   // move hot-investors + trends into the two-column top row (above the grid)

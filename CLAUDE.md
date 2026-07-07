@@ -1,18 +1,26 @@
 # CLAUDE.md — The Signal (VC Investment Feed)
 
-Standalone VC-signal feed. A Python monitor pulls RSS and writes `signals-data.json`;
-`index.html` renders it. Pure RSS — no LinkedIn, X, or Apify. No backend.
+Standalone VC-signal feed. A Python monitor aggregates feeds and writes
+`signals-data.json`; `index.html` renders it. Any free, ToS-clean feed or API is
+fair game (RSS, JSON/news APIs, Crunchbase free tier, SEC/gov filings, firm blogs,
+newsletters). No backend.
 
 ## The one rule
 
 `signals-data.json` has exactly one writer: `scripts/live_monitor.py`. Never
 hand-edit it. To change what shows up, edit the `data/*.json` source lists and re-run.
 
-## Do NOT reintroduce social scraping
+## Sources: free-first, social case-by-case
 
-This repo is intentionally pure RSS. Do not add LinkedIn/X scraping, Apify actors,
-or browser automation. If a source is only reachable via a social platform, find its
-RSS equivalent or leave it out.
+Add any free, aggregatable, ToS-clean feed or API. Prefer structured feeds
+(RSS/JSON/APIs) over scraping. Social scraping (LinkedIn/X, Apify actors, browser
+automation) is NOT banned but is NOT the default: use it only for a specific target
+reachable no other way, and justify that source in the same change. Cost matters —
+"free to aggregate" is the bar; a paid scraper needs a reason.
+
+Scar (2026-07-06): the X/YouTube/Pinterest posters + their Apify actors were
+archived because they didn't work here. Social-only sources carry that history;
+weigh it before adding one.
 
 ## Common tasks
 

@@ -43,10 +43,18 @@ jobs:
       - name: Compute trend analytics
         run: python scripts/compute_trends.py
 
+      - name: Derive revealed fund intent (deals-per-fund)
+        # Regex-first; the Haiku body-extract fallback fires only if the
+        # ANTHROPIC_API_KEY secret is set. Without it, this degrades to
+        # regex-only and still writes an honest (lower-coverage) fund-intent.json.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/derive_fund_intent.py
+
       - name: Check for changes
         id: check_changes
         run: |
-          git add -A signals-*.json trends.json trends-history.json data/
+          git add -A signals-*.json trends.json trends-history.json fund-intent.json investor-cache.json data/
           git diff --cached --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed

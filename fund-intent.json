@@ -1,0 +1,11 @@
+{
+  "generated": "2026-07-07T21:16:33Z",
+  "min_recurrence": 2,
+  "coverage": {
+    "deal_rows_seen": 61,
+    "deal_rows_attributed": 6,
+    "funds_tracked": 0
+  },
+  "funds": [],
+  "by_vertical": {}
+}
