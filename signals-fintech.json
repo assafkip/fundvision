@@ -1062,6 +1062,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_dbe874d64a09",
+    "person_name": "PYMNTS",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "SEC Plans Crypto Rules to Lure Markets Onshore",
+    "excerpt": "The Securities and Exchange Commission\u2019s (SEC) 2026 Regulatory Agenda includes proposed rules that would clarify the regulatory framework around crypto assets. The proposed rules will help advance...",
+    "source_url": "https://www.pymnts.com/cryptocurrency/2026/sec-plans-crypto-rules-to-lure-markets-onshore/",
+    "source_type": "news",
+    "source_date": "2026-07-07",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-07T23:25:28Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_8991a283f3a7",
     "person_name": "Ron Shevlin",
     "firm": "Cornerstone Advisors (Fintech Snark Tank)",
