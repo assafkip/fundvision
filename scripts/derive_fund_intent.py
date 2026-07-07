@@ -5,7 +5,7 @@ Derive each fund's REVEALED thesis (DO) from its announced deals in the feed.
 This is the deals-per-fund rollup. It reads the live signals feed, attributes
 each deal to an investor via extract_investors.py, and rolls those deals up per
 fund by sector + recency. The pattern of where a fund's money actually goes IS
-its thesis — revealed preference, not the hand-typed conclusions the old
+its thesis - revealed preference, not the hand-typed conclusions the old
 "What funds want" panel derived from vc_watchlist.json notes.
 
 The engine reads ONLY feed rows (signals-<vertical>.json). It never opens
@@ -19,7 +19,7 @@ Two filters live here (the plan's known-limit fix for regex title-case noise):
   -> "Tapestry VC") so one firm is one fund.
 
 The derived one-line thesis is a TEMPLATE over the deterministic counts, never an
-LLM paraphrase — the LLM does extraction only (extract_investors), or the panel
+LLM paraphrase - the LLM does extraction only (extract_investors), or the panel
 re-grows the hand-typed-conclusions smell it was built to kill.
 
 Single writer of fund-intent.json (the trends.json <- compute_trends.py pattern).
@@ -47,9 +47,9 @@ PROJECT_ROOT = Path(__file__).parent.parent
 VERTICALS_PATH = PROJECT_ROOT / "verticals.json"
 INTENT_OUTPUT_PATH = PROJECT_ROOT / "fund-intent.json"
 
-# The DEAL set — money actually moving. Tighter than compute_trends' HARD set:
+# The DEAL set - money actually moving. Tighter than compute_trends' HARD set:
 # actively_looking / new_thesis are SAY, not DO, so they are excluded. The
-# extract_investors gate tightens this further — a miscategorized blog post
+# extract_investors gate tightens this further - a miscategorized blog post
 # (e.g. a Google Security Blog row tagged new_security_investment) carries no
 # investor firm name in its text, so it attributes to nobody and drops out.
 DEAL_CATEGORIES = {"new_investment", "new_fund_raised", "new_security_investment"}
@@ -146,7 +146,7 @@ def _cadence(deals):
 
 def _thesis(fund, sectors, coverage, recent30):
     """
-    Templated one-liner over the counts. NOT an LLM paraphrase — the numbers own
+    Templated one-liner over the counts. NOT an LLM paraphrase - the numbers own
     the sentence, so it can never invent a conclusion the deals don't support.
     """
     top = [s["label"] for s in sectors[:2]]
@@ -200,7 +200,7 @@ def derive_intents(rows_by_sector, today, min_recurrence=2, cache=None,
 
     funds.sort(key=lambda f: (f["coverage"], f["recent90"]), reverse=True)
 
-    # Live fetchable rate — only meaningful when the fetch path actually ran.
+    # Live fetchable rate - only meaningful when the fetch path actually ran.
     # None when regex-only (no fetch happened), so the UI omits it rather than
     # claiming a coverage number this run did not measure.
     attempts = stats.get("fetch_attempts", 0)
@@ -223,7 +223,7 @@ def derive_intents(rows_by_sector, today, min_recurrence=2, cache=None,
 def _load_rows_by_sector():
     """Read every signals-<vertical>.json into {sector_label: [rows]}.
 
-    Reads ONLY the feed. Never touches vc_watchlist.json — DO, not SAY.
+    Reads ONLY the feed. Never touches vc_watchlist.json - DO, not SAY.
     """
     verticals = json.load(open(VERTICALS_PATH)).get("verticals", [])
     rows_by_sector = {}

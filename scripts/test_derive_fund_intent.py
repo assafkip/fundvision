@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reproducer for derive_fund_intent.py — the DO (deals-per-fund) rollup.
+Reproducer for derive_fund_intent.py - the DO (deals-per-fund) rollup.
 
 Proves the revealed-thesis engine before it touches real data:
 - intent derives from FEED ROWS: a named investor's deals roll up into a thesis
@@ -28,7 +28,7 @@ TODAY = date(2026, 7, 7)
 
 def test_intent_derives_from_feed_rows():
     # Khosla makes two cyber deals + one fintech deal. The derived thesis must
-    # reflect those sectors, ranked by where the deals landed — not any notes.
+    # reflect those sectors, ranked by where the deals landed - not any notes.
     rows_by_sector = {
         "Cybersecurity": [
             {"signal_category": "new_investment",

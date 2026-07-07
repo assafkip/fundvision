@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Investor attribution for FundVision DO (deals-per-fund) — the cheap-LLM unlock.
+Investor attribution for FundVision DO (deals-per-fund) - the cheap-LLM unlock.
 
 Regex-first, LLM-fallback, always verified. Pulls the investor(s) out of a deal
 row so `derive_fund_intent.py` can roll deals up per fund.
 
 Pipeline per row:
-  1. extract_from_text  — deterministic regex on the summary/excerpt (FREE, no fetch)
-  2. if regex finds nothing AND a fetcher+llm are wired — fetch the linked article
+  1. extract_from_text  - deterministic regex on the summary/excerpt (FREE, no fetch)
+  2. if regex finds nothing AND a fetcher+llm are wired - fetch the linked article
      body and Haiku-extract (recon proved investors live in the body)
-  3. verify_against_source — drop any name not literally in the source text
+  3. verify_against_source - drop any name not literally in the source text
      (LLM hallucination guard: recon leaked "Fenwick LLP" + individuals)
-  4. filter_noise — drop law firms + person-name individuals
+  4. filter_noise - drop law firms + person-name individuals
 
 The LLM + fetcher are INJECTED (default None) so the deterministic core is fully
 testable offline. Model tier for the fallback = Haiku (data extraction,
@@ -37,7 +37,7 @@ _WORD = r"[A-Z][A-Za-z0-9.&'’-]*"
 # 1) Capitalized phrase ending in an investor suffix: "Khosla Ventures".
 FIRM_RE = re.compile(rf"\b({_WORD}(?:\s+{_WORD}){{0,3}}\s+{SUFFIX})\b")
 # 2) Entity named by an investing verb: "led by X", "backed by X", "investors include X".
-# The trigger is case-insensitive via (?i:...) scoping ONLY — the captured entity
+# The trigger is case-insensitive via (?i:...) scoping ONLY - the captured entity
 # keeps its strict [A-Z] anchor, so lowercase noun phrases ("the fossil fuel
 # industry") no longer leak in.
 LED_RE = re.compile(
@@ -46,11 +46,11 @@ LED_RE = re.compile(
 # 3) Suffix-less backer in a headline: "Google backs Proxima Fusion" -> "Google".
 BACKS_RE = re.compile(rf"\b({_WORD}(?:\s+{_WORD}){{0,2}})\s+backs?\b")
 
-# Law-firm / advisor markers — never investors, always dropped.
+# Law-firm / advisor markers - never investors, always dropped.
 LAW_RE = re.compile(r"\b(LLP|L\.L\.P|Law|Attorneys)\b", re.I)
 
 # Generic adjectives/nouns that precede an investor suffix in ordinary prose
-# ("Fresh Capital", "Venture Capital", "Global Equity") — a name LED by one of
+# ("Fresh Capital", "Venture Capital", "Global Equity") - a name LED by one of
 # these is a phrase, not a firm. Dropped when it is the leading word.
 GENERIC_HEADS = {
     "Fresh", "Serious", "Venture", "Working", "Global", "Financial", "Private",
@@ -74,7 +74,7 @@ def normalize_firm(name):
 
 
 def _is_person_shaped(name):
-    """Two capitalized words, no investor suffix — looks like 'Tony James'."""
+    """Two capitalized words, no investor suffix - looks like 'Tony James'."""
     words = name.split()
     if len(words) != 2:
         return False
@@ -166,7 +166,7 @@ def extract_investors(row, fetcher=None, llm=None, cache=None, stats=None):
             method = "llm" if names else "none"
 
     # Cache only DEFINITIVE answers: names found, or the LLM fallback actually
-    # ran. A regex-miss with no LLM wired is NOT definitive — caching [] there
+    # ran. A regex-miss with no LLM wired is NOT definitive - caching [] there
     # would block the LLM from ever reprocessing the row once it is wired.
     if cache is not None and url and (names or llm_ran):
         cache[url] = names
@@ -190,7 +190,7 @@ _HTML_RE = re.compile(r"<[^>]+>")
 def fetch_article_text(url, timeout=15, max_chars=12000):
     """Fetch a public article and return its visible text (HTML stripped).
 
-    Returns "" on any failure (403, timeout, non-HTML) — a blocked domain is a
+    Returns "" on any failure (403, timeout, non-HTML) - a blocked domain is a
     known, measured coverage gap (recon: ~94% fetchable), not an error to raise.
     """
     import urllib.request
@@ -229,7 +229,7 @@ _LLM_PROMPT = (
 def make_haiku_extractor():
     """Return an llm(body) -> [names] callable, or None if no API key is set.
 
-    Uses the Anthropic Messages API over stdlib urllib — no SDK dependency. The
+    Uses the Anthropic Messages API over stdlib urllib - no SDK dependency. The
     caller pairs this with verify_against_source, so a hallucinated name is
     dropped even if the model invents one.
     """
@@ -276,7 +276,7 @@ def make_haiku_extractor():
 
 
 def _run_over_vertical(vertical):
-    """Offline regex-only pass over a real signals file — proves wiring + hit rate."""
+    """Offline regex-only pass over a real signals file - proves wiring + hit rate."""
     path = PROJECT_ROOT / f"signals-{vertical}.json"
     if not path.exists():
         print(f"no such file: {path}")

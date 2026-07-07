@@ -1,4 +1,4 @@
-# FundVision positioning — PARKED (do not ship live yet)
+# FundVision positioning - PARKED (do not ship live yet)
 
 Status: DRAFT, parked until the DO layer runs with real body-level attribution
 (needs ANTHROPIC_API_KEY in CI so funds actually populate). Routed through the

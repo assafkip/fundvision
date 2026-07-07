@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reproducer for the exit_signal classifier (Phase 3 — VC appetite from exits).
+Reproducer for the exit_signal classifier (Phase 3 - VC appetite from exits).
 
 An M&A or IPO in a sector is a VC-appetite signal, mined from feeds we already
 read. It must be a distinct HARD category, not buried in the soft portfolio
@@ -22,7 +22,7 @@ from live_monitor import (
 
 
 def _classifier(hard, soft):
-    """A FeedMonitor with only the keyword tables set — no file/network load."""
+    """A FeedMonitor with only the keyword tables set - no file/network load."""
     m = FeedMonitor.__new__(FeedMonitor)
     m.hard_keywords = hard
     m.soft_keywords = soft

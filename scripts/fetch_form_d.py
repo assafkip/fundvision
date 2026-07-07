@@ -10,7 +10,7 @@ funds (Item 3C / Section 3(c) markers), and emits signals-schema rows.
 Free + ToS-clean: SEC EDGAR is public gov data; the only requirement is a
 descriptive User-Agent with contact (set below). No API key.
 
-{{NEEDS_PROOF}} — attribution limit: Form D names the FUND (the issuer), not the
+{{NEEDS_PROOF}} - attribution limit: Form D names the FUND (the issuer), not the
 portfolio companies it will back or its LPs. So dry_powder is a fund-FORMATION
 signal, not per-deal attribution. It deliberately does NOT feed derive_fund_intent's
 deals-per-fund rollup (that reads announced portfolio deals, which name the investor
@@ -40,7 +40,7 @@ EDGAR_FEED = (
 )
 
 # The getcurrent feed leaks related forms (a filer's other current filings), so
-# the form type is checked explicitly — only real Form D / amendments count.
+# the form type is checked explicitly - only real Form D / amendments count.
 FORM_D_TYPES = {"D", "D/A"}
 
 # Item 3C / Section 3(c) exemptions mark a private investment fund (3(c)(1) or
@@ -109,7 +109,7 @@ def parse_form_d_feed(xml, today=None):
             "firm": "SEC Form D",
             "signal_type": "hard",
             "signal_category": "dry_powder",
-            "summary": f"{name} filed Form D — private fund raising capital (fresh dry powder to deploy)",
+            "summary": f"{name} filed Form D - private fund raising capital (fresh dry powder to deploy)",
             "excerpt": "SEC Form D, Item 3C private-fund exemption. Names the fund, not its portfolio deals.",
             "source_url": _filing_url(entry),
             "source_type": "sec-form-d",
@@ -146,7 +146,7 @@ def main():
         "signals": rows,
     }
     json.dump(output, open(OUTPUT_PATH, "w"), indent=2)
-    print(f"Wrote {OUTPUT_PATH} — {len(rows)} private-fund Form D filings (dry powder)")
+    print(f"Wrote {OUTPUT_PATH} - {len(rows)} private-fund Form D filings (dry powder)")
     for r in rows[:8]:
         print(f"  {r['source_date']}  {r['person_name']}")
 

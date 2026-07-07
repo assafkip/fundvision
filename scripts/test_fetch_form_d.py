@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reproducer for fetch_form_d.py — SEC EDGAR Form D dry-powder signal (Phase 3b).
+Reproducer for fetch_form_d.py - SEC EDGAR Form D dry-powder signal (Phase 3b).
 
 A private investment fund filing Form D just raised capital it now has to deploy
 ("who has money to deploy"). The parser mines EDGAR's free Form D feed and keeps
@@ -8,7 +8,7 @@ ONLY pooled investment funds (Item 3C / Section 3(c) markers), dropping operatin
 -company Reg D raises and non-Form-D forms that leak into the feed.
 
 Runs against a REAL captured EDGAR fixture (scripts/fixtures/edgar_form_d_sample.xml,
-2 funds + 1 operating company + 1 non-D form) — no network in the test.
+2 funds + 1 operating company + 1 non-D form) - no network in the test.
 
 Run: .venv/bin/python scripts/test_fetch_form_d.py   (or: pytest -q)
 """

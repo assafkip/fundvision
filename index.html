@@ -209,7 +209,7 @@
   .want-funds { margin: 11px 0 2px 34px; display: none; flex-wrap: wrap; gap: 6px; }
   .want.open .want-funds { display: flex; }
   .want-funds .chip { font-family: var(--mono); font-size: 11px; color: var(--ink-dim); background: var(--surface); border: 1px solid var(--line); padding: 3px 9px; border-radius: 999px; }
-  /* What these funds actually do — revealed thesis from announced deals (fund-intent.json) */
+  /* What these funds actually do - revealed thesis from announced deals (fund-intent.json) */
   .does { margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line); }
   .does-k { font-family: var(--mono); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px; }
   .does-sub { font-size: 13px; color: var(--ink-faint); margin-bottom: 16px; max-width: 62ch; }
@@ -221,11 +221,17 @@
   .did-count { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
   .did-thesis { font-size: 13px; color: var(--ink-dim); margin: 6px 0 0; }
   .does-empty { font-size: 13px; color: var(--ink-faint); max-width: 62ch; line-height: 1.5; }
-  /* Fresh dry powder — SEC Form D private-fund filings (form-d-signals.json) */
+  /* Fresh dry powder - SEC Form D private-fund filings (form-d-signals.json) */
   .dry-item { display: block; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-dim); text-decoration: none; }
   .dry-item:last-child { border-bottom: 0; }
   .dry-item:hover { color: var(--accent); }
   .dry-item .d { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); margin-right: 8px; }
+  /* Sector alert subscribe - "ping me when a fund in my sector moves" (alerts/<v>.xml) */
+  .alertsub { margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .alertsub .k { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faint); }
+  .alertsub .rss { display: inline-flex; align-items: center; gap: 7px; font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--accent); background: #6f8fca15; border: 1px solid #6f8fca40; padding: 7px 13px; border-radius: 10px; cursor: pointer; text-decoration: none; }
+  .alertsub .rss:hover { border-color: var(--accent); }
+  .alertsub .copied { font-size: 12px; color: var(--ink-dim); }
   /* Overview top row: hot investors + trends, side by side above the grid */
   .toprow { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; padding: 20px 0 40px; }
   body.in-area .toprow { display: none; }
@@ -400,10 +406,11 @@
       <h1 id="areaName"></h1>
       <div class="topinv" id="topInvestor"></div>
       <div class="apulse" id="apulse"></div>
+      <div class="alertsub" id="alertSub"></div>
     </div>
     <section class="does" id="doesSec" style="display:none">
       <div class="does-k">What these funds actually do</div>
-      <div class="does-sub">Revealed thesis from announced deals in the live feed — where the money went, not what a bio says. Each fund shows the deal count behind it.</div>
+      <div class="does-sub">Revealed thesis from announced deals in the live feed. Where the money went, not what a bio says. Each fund shows the deal count behind it.</div>
       <div class="does-cov" id="doesCov"></div>
       <div id="doesBody"></div>
     </section>
@@ -589,9 +596,35 @@ function areaPulse(id) {
     ${rising}${movers ? `<span class="sep">·</span><span class="stat">movers: <b>${movers}</b></span>` : ""}`;
 }
 
-/* "Fresh dry powder" — SEC Form D private-fund filings (form-d-signals.json).
+/* Sector alerts - "ping me when a fund in my sector moves". Subscribe = the
+   static RSS feed alerts/<vid>.xml a founder adds to any reader. No backend.
+   Optional email capture activates only when ALERT_CAPTURE_ENDPOINT is set
+   (parked until the founder picks a form provider). */
+const ALERT_CAPTURE_ENDPOINT = ""; // set to a form endpoint to enable email capture
+function renderAlerts(id, label) {
+  const box = el("alertSub");
+  if (!box) return;
+  const feedUrl = new URL(`alerts/${id}.xml`, location.href).href;
+  box.innerHTML = `
+    <span class="k">Get pinged when a fund in ${esc(label)} moves</span>
+    <a class="rss" id="rssBtn" href="${esc(feedUrl)}" target="_blank" rel="noopener" title="${esc(feedUrl)}">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="19" r="2"/><path d="M4 10a10 10 0 0 1 10 10h3A13 13 0 0 0 4 7z"/><path d="M4 3a17 17 0 0 1 17 17h3A20 20 0 0 0 4 0z"/></svg>
+      Copy alert feed
+    </a>
+    <span class="copied" id="rssCopied" style="display:none">copied, paste into any RSS reader</span>`;
+  const btn = el("rssBtn");
+  btn.onclick = (e) => {
+    e.preventDefault();
+    navigator.clipboard.writeText(feedUrl).then(() => {
+      el("rssCopied").style.display = "";
+      setTimeout(() => { const c = el("rssCopied"); if (c) c.style.display = "none"; }, 4000);
+    }).catch(() => window.open(feedUrl, "_blank"));
+  };
+}
+
+/* "Fresh dry powder" - SEC Form D private-fund filings (form-d-signals.json).
    A fund filing Form D just raised capital it now has to deploy. Names the fund,
-   not its deals — a fund-formation signal, so it lives on the home, not per-sector. */
+   not its deals - a fund-formation signal, so it lives on the home, not per-sector. */
 function renderDryPowder() {
   const panel = el("dryPanel");
   const fd = state.formD;
@@ -604,7 +637,7 @@ function renderDryPowder() {
     </a>`).join("");
 }
 
-/* "What these funds actually do" — revealed thesis from announced deals (fund-intent.json).
+/* "What these funds actually do" - revealed thesis from announced deals (fund-intent.json).
    Keyed by sector LABEL (by_vertical). Honest empty state when body-level
    attribution has not yet run (regex-only, no key in CI). */
 function renderDoes(label) {
@@ -619,7 +652,7 @@ function renderDoes(label) {
   cov.textContent = covLine;
   const funds = (fi.by_vertical && fi.by_vertical[label]) || [];
   if (!funds.length) {
-    box.innerHTML = `<div class="does-empty">No fund in this sector has ${fi.min_recurrence}+ announced deals attributed yet. Investor names live in article bodies; body-level attribution recovers them as the feed accumulates. Funds with no press or blog presence stay invisible here — by design, this reads deals, not bios.</div>`;
+    box.innerHTML = `<div class="does-empty">No fund in this sector has ${fi.min_recurrence}+ announced deals attributed yet. Investor names live in article bodies; body-level attribution recovers them as the feed accumulates. Funds with no press or blog presence stay invisible here. By design, this reads deals, not bios.</div>`;
     return;
   }
   box.innerHTML = funds.slice(0, 8).map(f => `
@@ -666,6 +699,7 @@ async function openArea(id) {
   el("areaName").textContent = v.label;
   el("areaBig").textContent = v.label.split(" ")[0];
   el("apulse").innerHTML = areaPulse(id);
+  renderAlerts(id, v.label);
   renderDoes(v.label);
   renderWants(id);
   el("topInvestor").innerHTML = "";
