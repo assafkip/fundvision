@@ -1,20 +1,20 @@
 {
-  "last_run": "2026-07-08T08:22:45.624236",
+  "last_run": "2026-07-08T11:02:14.953604",
   "feeds_checked": {
-    "https://www.insidehighered.com/rss.xml": "2026-07-08T08:22:42.836879",
+    "https://www.insidehighered.com/rss.xml": "2026-07-08T11:02:12.929298",
     "https://philhill.substack.com/feed": "2026-07-07T00:59:04.472188",
     "https://michaelbhorn.substack.com/feed": "2026-07-07T00:59:04.173668",
-    "https://hechingerreport.org/feed/": "2026-07-08T08:22:43.214048",
+    "https://hechingerreport.org/feed/": "2026-07-08T11:02:12.917440",
     "https://www.reachcapital.com/feed/": "2026-07-07T00:59:04.150218",
     "https://edtechinsiders.substack.com/feed": "2026-07-07T00:59:04.232895",
-    "https://www.the74million.org/feed/": "2026-07-08T08:22:43.567275",
-    "https://www.eschoolnews.com/feed/": "2026-07-08T08:22:45.172031",
-    "https://www.classcentral.com/report/feed/": "2026-07-08T08:22:43.406105",
-    "https://medium.com/feed/gsv-ventures": "2026-07-08T08:22:43.135955",
+    "https://www.the74million.org/feed/": "2026-07-08T11:02:12.828430",
+    "https://www.eschoolnews.com/feed/": "2026-07-08T11:02:13.692173",
+    "https://www.classcentral.com/report/feed/": "2026-07-08T11:02:14.031610",
+    "https://medium.com/feed/gsv-ventures": "2026-07-08T11:02:12.951021",
     "https://matthewtower.substack.com/feed": "2026-07-07T00:59:04.895253",
-    "https://www.edsurge.com/articles_rss": "2026-07-08T08:22:43.096797",
-    "https://joshbersin.com/feed/": "2026-07-08T08:22:44.355138",
-    "https://www.class-central.com/report/feed/": "2026-07-08T08:22:45.619016"
+    "https://www.edsurge.com/articles_rss": "2026-07-08T11:02:14.948617",
+    "https://joshbersin.com/feed/": "2026-07-08T11:02:14.733749",
+    "https://www.class-central.com/report/feed/": "2026-07-08T11:02:13.863186"
   },
-  "signals_generated": 391
+  "signals_generated": 394
 }

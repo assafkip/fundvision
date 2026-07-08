@@ -54,6 +54,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_501ffbfa7c6d",
+    "person_name": "SpaceNews",
+    "firm": "SpaceNews",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "The government\u2019s options to address strained spaceports",
+    "excerpt": "The May 28 explosion of a Blue Origin New Glenn rocket at Cape Canaveral\u2019s Launch Complex 36 did more than destroy a rocket and severely damage a launch pad. The [&#8230;] The post The...",
+    "source_url": "https://spacenews.com/the-governments-options-to-address-strained-spaceports/",
+    "source_type": "blog",
+    "source_date": "2026-07-08",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-08T11:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_53dc4d5e0553",
     "person_name": "SpaceNews",
     "firm": "SpaceNews",
