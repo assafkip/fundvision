@@ -252,6 +252,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_065f6f8db8d2",
+    "person_name": "Inside Higher Ed",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Clemson Picks UGA Provost as President After Guskiewicz Reversal",
+    "excerpt": "Clemson Picks UGA Provost as President After Guskiewicz Reversal Ryan Quinn Thu, 07/09/2026 - 11:07 AM Byline(s) Ryan Quinn",
+    "source_url": "https://www.insidehighered.com/news/quick-takes/2026/07/09/clemson-picks-uga-provost-president-after-guskiewicz-reversal",
+    "source_type": "news",
+    "source_date": "2026-07-09",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-09T15:07:39Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_f541e9cedba1",
     "person_name": "The Hechinger Report",
     "firm": "news",

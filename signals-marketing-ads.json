@@ -288,6 +288,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_075d96703acd",
+    "person_name": "Adweek",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Week of June 29 Morning News Ratings: CBS Mornings Grows Ahead of Holiday",
+    "excerpt": "GMA had gains in the Adults 25-54 demo.",
+    "source_url": "https://www.adweek.com/tvnewser/week-of-june-29-2026-morning-news-ratings/",
+    "source_type": "news",
+    "source_date": "2026-07-09",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-09T16:04:49Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_239b61b0f0f5",
     "person_name": "Digiday",
     "firm": "Digiday",
