@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-09T00:06:52Z",
+  "generated": "2026-07-09T04:50:17Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 94,
-    "deal_rows_attributed": 52,
+    "deal_rows_seen": 98,
+    "deal_rows_attributed": 53,
     "funds_tracked": 32,
-    "fetch_attempts": 12,
-    "fetchable_pct": 8,
+    "fetch_attempts": 15,
+    "fetchable_pct": 20,
     "update_cadence": "hourly"
   },
   "funds": [

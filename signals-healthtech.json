@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_f11b244046b3",
+    "person_name": "Venrock",
+    "firm": "Venrock",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Thinking about the Impact of Artificial Intelligence on U.S. Health Care Costs and Spending Growth",
+    "excerpt": "This article first appeared in NEJM Catalyst. It is co-authored with Brian Zhao and Erin Duffy, Ph.D., M.P.H. Vol. 7 No. 8 &#124; August 2026 DOI: 10.1056/CAT.25.0509 This article critically examines...",
+    "source_url": "https://www.venrock.com/insights/thinking-about-the-impact-of-artificial-intelligence-on-u-s-health-care-costs-and-spending-growth/",
+    "source_type": "blog",
+    "source_date": "2026-07-09",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-09T02:43:47Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "vc"
+  },
+  {
     "id": "rss_e6493692ad8d",
     "person_name": "The Healthcare Blog",
     "firm": "The Healthcare Blog",

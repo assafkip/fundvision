@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_b4f46900ed59",
+    "person_name": "ESG News",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "India\u2019s IT Giants Have Aggressive Net-Zero Targets",
+    "excerpt": "By Dr. Dinesh Babu Pillai, Senior Sustainability Advisor, The ESG Institute (London) \u2013 Editorial note: This analysis is based on primary BRSR disclosures reviewed by ESG News. Dr. Pillai\u2019s...",
+    "source_url": "https://esgnews.com/india-it-giants-aggressive-net-zero-targets/?utm_source=rss&utm_medium=rss&utm_campaign=india-it-giants-aggressive-net-zero-targets",
+    "source_type": "news",
+    "source_date": "2026-07-09",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-09T02:45:49Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_f72460dab123",
     "person_name": "ESG Today",
     "firm": "news",

@@ -342,6 +342,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_18e4fd9eda62",
+    "person_name": "Inside Higher Ed",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Michigan State Trustee Says He Was Caught Off Guard by President\u2019s New Contract",
+    "excerpt": "Michigan State Trustee Says He Was Caught Off Guard by President\u2019s New Contract Ryan Quinn Wed, 07/08/2026 - 05:13 PM Kevin Guskiewicz\u2019s reversal of his plan to leave for Clemson University raises...",
+    "source_url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/07/08/msu-trustee-says-he-wasnt-shown-presidents-new",
+    "source_type": "news",
+    "source_date": "2026-07-08",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-08T21:13:17Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_225385bd56e9",
     "person_name": "Inside Higher Ed",
     "firm": "news",

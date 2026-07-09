@@ -666,6 +666,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_fca9725e954c",
+    "person_name": "Simon Willison",
+    "firm": "simonwillison.net",
+    "signal_type": "soft",
+    "signal_category": "sector_pain",
+    "summary": "Rewriting Bun in Rust",
+    "excerpt": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post (since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly,...",
+    "source_url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+    "source_type": "blog",
+    "source_date": "2026-07-08",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-08T23:57:21Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_8ebac0f55fcc",
     "person_name": "Shawn Wang (swyx) / Alessio Fanelli",
     "firm": "Latent Space",

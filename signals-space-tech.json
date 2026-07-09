@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_490ca46a4fb3",
+    "person_name": "SpaceNews",
+    "firm": "SpaceNews",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "New Singapore space agency seeks to build up the country\u2019s space industry",
+    "excerpt": "Singapore\u2019s new space agency signed a cooperation agreement with its Japanese counterpart as part of its efforts to build up the country\u2019s space industry. The post New Singapore space agency seeks to...",
+    "source_url": "https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/",
+    "source_type": "blog",
+    "source_date": "2026-07-09",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-09T03:31:50Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_d2a64372b6a2",
     "person_name": "SpaceNews",
     "firm": "SpaceNews",
