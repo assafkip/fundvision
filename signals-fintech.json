@@ -864,6 +864,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_bfc0d38b0769",
+    "person_name": "PYMNTS",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Apple Lawsuit Claims OpenAI is Developing AI Devices Using Stolen Tech",
+    "excerpt": "Apple has sued OpenAI and two of its employees, alleging that they stole trade secrets from Apple to support OpenAI\u2019s development of devices. The OpenAI employees named in the lawsuit, Chief Hardware...",
+    "source_url": "https://www.pymnts.com/legal/2026/apple-lawsuit-claims-openai-is-developing-ai-devices-using-stolen-tech/",
+    "source_type": "news",
+    "source_date": "2026-07-10",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-10T22:56:58Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_8c0ff594e6f0",
     "person_name": "Finextra",
     "firm": "news",
