@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-07-10T10:21:48.200443",
+  "last_run": "2026-07-10T13:10:10.533682",
   "feeds_checked": {
-    "https://esgnews.com/feed/": "2026-07-10T10:21:46.235882",
-    "https://www.esgtoday.com/feed/": "2026-07-10T10:21:46.158660",
-    "https://ssir.org/site/rss_2.0": "2026-07-10T10:21:46.497084",
-    "https://www.pioneerspost.com/feed": "2026-07-10T10:21:46.466953",
-    "https://impact-investor.com/feed/": "2026-07-10T10:21:46.387648",
+    "https://esgnews.com/feed/": "2026-07-10T13:10:08.595060",
+    "https://www.esgtoday.com/feed/": "2026-07-10T13:10:08.517141",
+    "https://ssir.org/site/rss_2.0": "2026-07-10T13:10:08.763883",
+    "https://www.pioneerspost.com/feed": "2026-07-10T13:10:08.730807",
+    "https://impact-investor.com/feed/": "2026-07-10T13:10:08.739576",
     "https://impactalpha.com/feed/": "2026-07-07T19:50:22.011746",
-    "https://www.takwinventures.com/feed/": "2026-07-10T10:21:46.976049",
-    "https://www.bridgesfundmanagement.com/feed/": "2026-07-10T10:21:47.096962",
-    "https://nextbillion.net/feed/": "2026-07-10T10:21:47.141644",
-    "https://www.socialenterprise.org.uk/feed/": "2026-07-10T10:21:48.196611"
+    "https://www.takwinventures.com/feed/": "2026-07-10T13:10:09.505205",
+    "https://www.bridgesfundmanagement.com/feed/": "2026-07-10T13:10:09.556872",
+    "https://nextbillion.net/feed/": "2026-07-10T13:10:09.489946",
+    "https://www.socialenterprise.org.uk/feed/": "2026-07-10T13:10:10.529124"
   },
-  "signals_generated": 90
+  "signals_generated": 93
 }

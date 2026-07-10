@@ -72,6 +72,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_9c71b843e654",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "FDA quietly pushes back deadline on electric shock ban",
+    "excerpt": "Massachusetts' biggest nursing strike ever, tackling the male loneliness epidemic, and other health news for Morning Rounds",
+    "source_url": "https://www.statnews.com/2026/07/10/health-news-fda-quietly-pushes-back-deadline-on-electric-shock-ban/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-10",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-10T11:51:52Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_f11b244046b3",
     "person_name": "Venrock",
     "firm": "Venrock",
