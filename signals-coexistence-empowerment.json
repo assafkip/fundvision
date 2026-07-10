@@ -54,6 +54,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_7b040bb90e0e",
+    "person_name": "ESG Today",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "World\u2019s Largest Beef Producer JBS Drops Supply Chain Net Zero Goal",
+    "excerpt": "Brazil-based meat giant JBS Foods, the largest global producer of beef and poultry, revealed that [&#8230;]",
+    "source_url": "https://www.esgtoday.com/worlds-largest-beef-producer-jbs-drops-supply-chain-net-zero-goal/?utm_source=rss&utm_medium=rss&utm_campaign=worlds-largest-beef-producer-jbs-drops-supply-chain-net-zero-goal",
+    "source_type": "news",
+    "source_date": "2026-07-10",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-10T10:06:18Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_b4f46900ed59",
     "person_name": "ESG News",
     "firm": "news",
