@@ -1,43 +1,43 @@
 {
-  "generated": "2026-07-11T18:57:16Z",
+  "generated": "2026-07-11T20:05:55Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 2022,
-      "recent7": 1678,
+      "total": 2038,
+      "recent7": 1694,
       "sparkline": [
         64,
         78,
         156,
-        1678
+        1694
       ],
-      "momentum_pct": 976,
+      "momentum_pct": 986,
       "momentum_basis": "window",
       "hard_count": 91,
       "hard_ratio": 0.045,
       "exit_count": 4,
-      "talk_count": 1898,
-      "whitespace_score": 20.9,
+      "talk_count": 1914,
+      "whitespace_score": 21.0,
       "rising": [
         {
           "term": "security",
-          "count": 470,
-          "delta": 418
-        },
-        {
-          "term": "x2026",
-          "count": 209,
-          "delta": 209
+          "count": 473,
+          "delta": 421
         },
         {
           "term": "prnewswire",
-          "count": 208,
-          "delta": 208
+          "count": 213,
+          "delta": 213
+        },
+        {
+          "term": "x2026",
+          "count": 211,
+          "delta": 211
         },
         {
           "term": "cybersecurity",
-          "count": 193,
-          "delta": 183
+          "count": 194,
+          "delta": 184
         },
         {
           "term": "data",
@@ -46,8 +46,8 @@
         },
         {
           "term": "x2019",
-          "count": 127,
-          "delta": 127
+          "count": 129,
+          "delta": 129
         },
         {
           "term": "cyber",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 526
+          "count": 533
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 262
+          "count": 264
         },
         {
           "name": "Security Conferences",
@@ -95,36 +95,36 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 355,
-      "recent7": 278,
+      "total": 359,
+      "recent7": 282,
       "sparkline": [
         7,
         23,
         41,
-        278
+        282
       ],
-      "momentum_pct": 578,
+      "momentum_pct": 588,
       "momentum_basis": "window",
       "hard_count": 38,
-      "hard_ratio": 0.107,
+      "hard_ratio": 0.106,
       "exit_count": 7,
-      "talk_count": 290,
-      "whitespace_score": 7.6,
+      "talk_count": 294,
+      "whitespace_score": 7.7,
       "rising": [
         {
-          "term": "bank",
-          "count": 86,
-          "delta": 85
+          "term": "financial",
+          "count": 88,
+          "delta": 87
         },
         {
-          "term": "financial",
-          "count": 85,
-          "delta": 84
+          "term": "bank",
+          "count": 88,
+          "delta": 87
         },
         {
           "term": "million",
-          "count": 49,
-          "delta": 49
+          "count": 50,
+          "delta": 50
         },
         {
           "term": "payments",
@@ -133,8 +133,8 @@
         },
         {
           "term": "digital",
-          "count": 45,
-          "delta": 42
+          "count": 47,
+          "delta": 44
         },
         {
           "term": "banking",
@@ -143,8 +143,8 @@
         },
         {
           "term": "crypto",
-          "count": 33,
-          "delta": 32
+          "count": 34,
+          "delta": 33
         },
         {
           "term": "intelligence",
@@ -794,34 +794,34 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1678,
-        "momentum_pct": 976,
+        "recent7": 1694,
+        "momentum_pct": 986,
         "momentum_basis": "window",
-        "total": 2022,
+        "total": 2038,
         "sparkline": [
           64,
           78,
           156,
-          1678
+          1694
         ],
         "hard_ratio": 0.045,
-        "whitespace_score": 20.9
+        "whitespace_score": 21.0
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 278,
-        "momentum_pct": 578,
+        "recent7": 282,
+        "momentum_pct": 588,
         "momentum_basis": "window",
-        "total": 355,
+        "total": 359,
         "sparkline": [
           7,
           23,
           41,
-          278
+          282
         ],
-        "hard_ratio": 0.107,
-        "whitespace_score": 7.6
+        "hard_ratio": 0.106,
+        "whitespace_score": 7.7
       },
       {
         "id": "climate",
@@ -939,8 +939,8 @@
     "rising": [
       {
         "term": "security",
-        "count": 480,
-        "delta": 421
+        "count": 483,
+        "delta": 424
       },
       {
         "term": "data",
@@ -948,24 +948,24 @@
         "delta": 221
       },
       {
-        "term": "x2026",
-        "count": 209,
-        "delta": 209
+        "term": "prnewswire",
+        "count": 213,
+        "delta": 213
       },
       {
-        "term": "prnewswire",
-        "count": 208,
-        "delta": 208
+        "term": "x2026",
+        "count": 211,
+        "delta": 211
       },
       {
         "term": "cybersecurity",
-        "count": 195,
-        "delta": 184
+        "count": 196,
+        "delta": 185
       },
       {
         "term": "million",
-        "count": 163,
-        "delta": 158
+        "count": 164,
+        "delta": 159
       },
       {
         "term": "energy",
@@ -978,14 +978,14 @@
         "delta": 129
       },
       {
+        "term": "x2019",
+        "count": 129,
+        "delta": 129
+      },
+      {
         "term": "cyber",
         "count": 147,
         "delta": 128
-      },
-      {
-        "term": "x2019",
-        "count": 127,
-        "delta": 127
       }
     ],
     "highlights": [
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 3676
+    "total_signals": 3696
   }
 }
