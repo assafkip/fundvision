@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-11T11:01:17Z",
+  "generated": "2026-07-11T13:10:51Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 1919,
-      "recent7": 1575,
+      "total": 1937,
+      "recent7": 1593,
       "sparkline": [
         64,
         78,
         156,
-        1575
+        1593
       ],
-      "momentum_pct": 910,
+      "momentum_pct": 921,
       "momentum_basis": "window",
       "hard_count": 89,
       "hard_ratio": 0.046,
       "exit_count": 4,
-      "talk_count": 1798,
-      "whitespace_score": 20.2,
+      "talk_count": 1816,
+      "whitespace_score": 20.4,
       "rising": [
         {
           "term": "security",
-          "count": 446,
-          "delta": 394
+          "count": 448,
+          "delta": 396
         },
         {
           "term": "prnewswire",
-          "count": 202,
-          "delta": 202
+          "count": 204,
+          "delta": 204
         },
         {
           "term": "x2026",
-          "count": 187,
-          "delta": 187
+          "count": 191,
+          "delta": 191
         },
         {
           "term": "cybersecurity",
-          "count": 179,
-          "delta": 169
+          "count": 182,
+          "delta": 172
         },
         {
           "term": "data",
-          "count": 166,
-          "delta": 147
+          "count": 167,
+          "delta": 148
         },
         {
           "term": "cyber",
@@ -51,25 +51,25 @@
         },
         {
           "term": "x2019",
-          "count": 115,
-          "delta": 115
+          "count": 119,
+          "delta": 119
         },
         {
           "term": "removed",
-          "count": 112,
-          "delta": 112
+          "count": 115,
+          "delta": 115
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 465
+          "count": 476
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 239
+          "count": 244
         },
         {
           "name": "Security Conferences",
@@ -794,18 +794,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1575,
-        "momentum_pct": 910,
+        "recent7": 1593,
+        "momentum_pct": 921,
         "momentum_basis": "window",
-        "total": 1919,
+        "total": 1937,
         "sparkline": [
           64,
           78,
           156,
-          1575
+          1593
         ],
         "hard_ratio": 0.046,
-        "whitespace_score": 20.2
+        "whitespace_score": 20.4
       },
       {
         "id": "fintech",
@@ -939,28 +939,28 @@
     "rising": [
       {
         "term": "security",
-        "count": 456,
-        "delta": 397
+        "count": 458,
+        "delta": 399
       },
       {
         "term": "data",
-        "count": 257,
-        "delta": 218
+        "count": 258,
+        "delta": 219
       },
       {
         "term": "prnewswire",
-        "count": 202,
-        "delta": 202
+        "count": 204,
+        "delta": 204
       },
       {
         "term": "x2026",
-        "count": 187,
-        "delta": 187
+        "count": 191,
+        "delta": 191
       },
       {
         "term": "cybersecurity",
-        "count": 181,
-        "delta": 170
+        "count": 184,
+        "delta": 173
       },
       {
         "term": "million",
@@ -979,8 +979,8 @@
       },
       {
         "term": "based",
-        "count": 127,
-        "delta": 121
+        "count": 128,
+        "delta": 122
       },
       {
         "term": "investors",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 3557
+    "total_signals": 3575
   }
 }
