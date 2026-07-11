@@ -1,28 +1,28 @@
 {
-  "generated": "2026-07-11T16:54:33Z",
+  "generated": "2026-07-11T17:53:29Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 1985,
-      "recent7": 1641,
+      "total": 2002,
+      "recent7": 1658,
       "sparkline": [
         64,
         78,
         156,
-        1641
+        1658
       ],
-      "momentum_pct": 952,
+      "momentum_pct": 963,
       "momentum_basis": "window",
       "hard_count": 91,
-      "hard_ratio": 0.046,
+      "hard_ratio": 0.045,
       "exit_count": 4,
-      "talk_count": 1862,
-      "whitespace_score": 20.5,
+      "talk_count": 1879,
+      "whitespace_score": 20.6,
       "rising": [
         {
           "term": "security",
-          "count": 462,
-          "delta": 410
+          "count": 465,
+          "delta": 413
         },
         {
           "term": "prnewswire",
@@ -31,8 +31,8 @@
         },
         {
           "term": "x2026",
-          "count": 203,
-          "delta": 203
+          "count": 206,
+          "delta": 206
         },
         {
           "term": "cybersecurity",
@@ -46,8 +46,8 @@
         },
         {
           "term": "x2019",
-          "count": 124,
-          "delta": 124
+          "count": 126,
+          "delta": 126
         },
         {
           "term": "cyber",
@@ -56,20 +56,20 @@
         },
         {
           "term": "removed",
-          "count": 119,
-          "delta": 119
+          "count": 120,
+          "delta": 120
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 506
+          "count": 516
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 256
+          "count": 259
         },
         {
           "name": "Security Conferences",
@@ -187,26 +187,26 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 286,
-      "recent7": 184,
+      "total": 288,
+      "recent7": 186,
       "sparkline": [
         12,
         25,
         55,
-        184
+        186
       ],
-      "momentum_pct": 235,
+      "momentum_pct": 238,
       "momentum_basis": "window",
       "hard_count": 23,
       "hard_ratio": 0.08,
       "exit_count": 2,
-      "talk_count": 255,
-      "whitespace_score": 11.1,
+      "talk_count": 257,
+      "whitespace_score": 11.2,
       "rising": [
         {
           "term": "openai",
-          "count": 73,
-          "delta": 72
+          "count": 75,
+          "delta": 74
         },
         {
           "term": "model",
@@ -220,8 +220,8 @@
         },
         {
           "term": "claude",
-          "count": 38,
-          "delta": 36
+          "count": 39,
+          "delta": 37
         },
         {
           "term": "models",
@@ -235,8 +235,8 @@
         },
         {
           "term": "gpt",
-          "count": 30,
-          "delta": 30
+          "count": 32,
+          "delta": 32
         },
         {
           "term": "fable",
@@ -794,18 +794,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1641,
-        "momentum_pct": 952,
+        "recent7": 1658,
+        "momentum_pct": 963,
         "momentum_basis": "window",
-        "total": 1985,
+        "total": 2002,
         "sparkline": [
           64,
           78,
           156,
-          1641
+          1658
         ],
-        "hard_ratio": 0.046,
-        "whitespace_score": 20.5
+        "hard_ratio": 0.045,
+        "whitespace_score": 20.6
       },
       {
         "id": "fintech",
@@ -842,18 +842,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 184,
-        "momentum_pct": 235,
+        "recent7": 186,
+        "momentum_pct": 238,
         "momentum_basis": "window",
-        "total": 286,
+        "total": 288,
         "sparkline": [
           12,
           25,
           55,
-          184
+          186
         ],
         "hard_ratio": 0.08,
-        "whitespace_score": 11.1
+        "whitespace_score": 11.2
       },
       {
         "id": "space-tech",
@@ -939,8 +939,8 @@
     "rising": [
       {
         "term": "security",
-        "count": 472,
-        "delta": 413
+        "count": 475,
+        "delta": 416
       },
       {
         "term": "data",
@@ -954,8 +954,8 @@
       },
       {
         "term": "x2026",
-        "count": 203,
-        "delta": 203
+        "count": 206,
+        "delta": 206
       },
       {
         "term": "cybersecurity",
@@ -984,8 +984,8 @@
       },
       {
         "term": "x2019",
-        "count": 124,
-        "delta": 124
+        "count": 126,
+        "delta": 126
       }
     ],
     "highlights": [
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 3637
+    "total_signals": 3656
   }
 }
