@@ -1,22 +1,22 @@
 {
-  "generated": "2026-07-11T21:45:00Z",
+  "generated": "2026-07-11T22:43:52Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 2054,
-      "recent7": 1710,
+      "total": 2059,
+      "recent7": 1715,
       "sparkline": [
         64,
         78,
         156,
-        1710
+        1715
       ],
-      "momentum_pct": 996,
+      "momentum_pct": 999,
       "momentum_basis": "window",
       "hard_count": 92,
       "hard_ratio": 0.045,
       "exit_count": 4,
-      "talk_count": 1929,
+      "talk_count": 1934,
       "whitespace_score": 21.0,
       "rising": [
         {
@@ -26,8 +26,8 @@
         },
         {
           "term": "x2026",
-          "count": 219,
-          "delta": 219
+          "count": 220,
+          "delta": 220
         },
         {
           "term": "prnewswire",
@@ -46,13 +46,13 @@
         },
         {
           "term": "x2019",
-          "count": 132,
-          "delta": 132
+          "count": 133,
+          "delta": 133
         },
         {
           "term": "cyber",
-          "count": 141,
-          "delta": 124
+          "count": 142,
+          "delta": 125
         },
         {
           "term": "removed",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 544
+          "count": 548
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 268
+          "count": 269
         },
         {
           "name": "Security Conferences",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1710,
-        "momentum_pct": 996,
+        "recent7": 1715,
+        "momentum_pct": 999,
         "momentum_basis": "window",
-        "total": 2054,
+        "total": 2059,
         "sparkline": [
           64,
           78,
           156,
-          1710
+          1715
         ],
         "hard_ratio": 0.045,
         "whitespace_score": 21.0
@@ -949,8 +949,8 @@
       },
       {
         "term": "x2026",
-        "count": 219,
-        "delta": 219
+        "count": 220,
+        "delta": 220
       },
       {
         "term": "prnewswire",
@@ -974,18 +974,18 @@
       },
       {
         "term": "x2019",
-        "count": 132,
-        "delta": 132
+        "count": 133,
+        "delta": 133
+      },
+      {
+        "term": "cyber",
+        "count": 148,
+        "delta": 129
       },
       {
         "term": "investors",
         "count": 132,
         "delta": 129
-      },
-      {
-        "term": "cyber",
-        "count": 147,
-        "delta": 128
       }
     ],
     "highlights": [
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 3713
+    "total_signals": 3718
   }
 }
