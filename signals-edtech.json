@@ -18,6 +18,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_471579fff60f",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Opinion: How School-Based Kindness Training Can Help Support Students\u2019 Mental Health",
+    "excerpt": "As school administrators map out curricula, schedules and priorities for the next school year, they should be thinking holistically about what kids actually need. Because honestly, young people are...",
+    "source_url": "https://www.the74million.org/article/how-school-based-kindness-training-can-help-support-students-mental-health/",
+    "source_type": "blog",
+    "source_date": "2026-07-12",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-12T10:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_0c0373be93df",
     "person_name": "The 74",
     "firm": "The 74 Million",

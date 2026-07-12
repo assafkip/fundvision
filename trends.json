@@ -1,33 +1,33 @@
 {
-  "generated": "2026-07-12T10:25:07Z",
+  "generated": "2026-07-12T11:57:11Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 2141,
-      "recent7": 1780,
+      "total": 2156,
+      "recent7": 1795,
       "sparkline": [
         65,
         80,
         169,
-        1780
+        1795
       ],
-      "momentum_pct": 953,
+      "momentum_pct": 962,
       "momentum_basis": "window",
-      "hard_count": 97,
+      "hard_count": 98,
       "hard_ratio": 0.045,
       "exit_count": 4,
-      "talk_count": 2011,
+      "talk_count": 2025,
       "whitespace_score": 20.7,
       "rising": [
         {
           "term": "security",
-          "count": 506,
-          "delta": 455
+          "count": 509,
+          "delta": 458
         },
         {
           "term": "x2026",
-          "count": 241,
-          "delta": 241
+          "count": 243,
+          "delta": 243
         },
         {
           "term": "prnewswire",
@@ -36,8 +36,8 @@
         },
         {
           "term": "cybersecurity",
-          "count": 210,
-          "delta": 200
+          "count": 211,
+          "delta": 201
         },
         {
           "term": "data",
@@ -46,8 +46,8 @@
         },
         {
           "term": "x2019",
-          "count": 140,
-          "delta": 140
+          "count": 142,
+          "delta": 142
         },
         {
           "term": "cyber",
@@ -56,20 +56,20 @@
         },
         {
           "term": "removed",
-          "count": 127,
-          "delta": 127
+          "count": 128,
+          "delta": 128
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 595
+          "count": 606
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 284
+          "count": 288
         },
         {
           "name": "Security Conferences",
@@ -187,26 +187,26 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 293,
-      "recent7": 185,
+      "total": 295,
+      "recent7": 187,
       "sparkline": [
         12,
         25,
         60,
-        185
+        187
       ],
-      "momentum_pct": 208,
+      "momentum_pct": 212,
       "momentum_basis": "window",
       "hard_count": 23,
       "hard_ratio": 0.078,
       "exit_count": 2,
-      "talk_count": 262,
-      "whitespace_score": 11.4,
+      "talk_count": 264,
+      "whitespace_score": 11.5,
       "rising": [
         {
           "term": "openai",
-          "count": 77,
-          "delta": 76
+          "count": 80,
+          "delta": 79
         },
         {
           "term": "anthropic",
@@ -215,8 +215,8 @@
         },
         {
           "term": "model",
-          "count": 48,
-          "delta": 47
+          "count": 49,
+          "delta": 48
         },
         {
           "term": "claude",
@@ -225,8 +225,8 @@
         },
         {
           "term": "meta",
-          "count": 33,
-          "delta": 33
+          "count": 35,
+          "delta": 35
         },
         {
           "term": "models",
@@ -458,21 +458,21 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 137,
-      "recent7": 88,
+      "total": 138,
+      "recent7": 89,
       "sparkline": [
         7,
         14,
         25,
-        88
+        89
       ],
-      "momentum_pct": 252,
+      "momentum_pct": 256,
       "momentum_basis": "window",
       "hard_count": 5,
       "hard_ratio": 0.036,
       "exit_count": 0,
-      "talk_count": 129,
-      "whitespace_score": 25.8,
+      "talk_count": 130,
+      "whitespace_score": 26.0,
       "rising": [
         {
           "term": "courses",
@@ -481,18 +481,18 @@
         },
         {
           "term": "students",
-          "count": 39,
-          "delta": 34
+          "count": 40,
+          "delta": 35
+        },
+        {
+          "term": "school",
+          "count": 33,
+          "delta": 28
         },
         {
           "term": "best",
           "count": 26,
           "delta": 26
-        },
-        {
-          "term": "school",
-          "count": 30,
-          "delta": 25
         },
         {
           "term": "free",
@@ -519,7 +519,7 @@
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 28
+          "count": 29
         },
         {
           "name": "Class Central",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1780,
-        "momentum_pct": 953,
+        "recent7": 1795,
+        "momentum_pct": 962,
         "momentum_basis": "window",
-        "total": 2141,
+        "total": 2156,
         "sparkline": [
           65,
           80,
           169,
-          1780
+          1795
         ],
         "hard_ratio": 0.045,
         "whitespace_score": 20.7
@@ -842,18 +842,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 185,
-        "momentum_pct": 208,
+        "recent7": 187,
+        "momentum_pct": 212,
         "momentum_basis": "window",
-        "total": 293,
+        "total": 295,
         "sparkline": [
           12,
           25,
           60,
-          185
+          187
         ],
         "hard_ratio": 0.078,
-        "whitespace_score": 11.4
+        "whitespace_score": 11.5
       },
       {
         "id": "space-tech",
@@ -906,18 +906,18 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 88,
-        "momentum_pct": 252,
+        "recent7": 89,
+        "momentum_pct": 256,
         "momentum_basis": "window",
-        "total": 137,
+        "total": 138,
         "sparkline": [
           7,
           14,
           25,
-          88
+          89
         ],
         "hard_ratio": 0.036,
-        "whitespace_score": 25.8
+        "whitespace_score": 26.0
       },
       {
         "id": "coexistence-empowerment",
@@ -939,13 +939,13 @@
     "rising": [
       {
         "term": "security",
-        "count": 516,
-        "delta": 458
+        "count": 519,
+        "delta": 461
       },
       {
         "term": "x2026",
-        "count": 241,
-        "delta": 241
+        "count": 243,
+        "delta": 243
       },
       {
         "term": "data",
@@ -959,8 +959,8 @@
       },
       {
         "term": "cybersecurity",
-        "count": 212,
-        "delta": 201
+        "count": 213,
+        "delta": 202
       },
       {
         "term": "million",
@@ -969,8 +969,8 @@
       },
       {
         "term": "x2019",
-        "count": 140,
-        "delta": 140
+        "count": 142,
+        "delta": 142
       },
       {
         "term": "energy",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 3812
+    "total_signals": 3830
   }
 }
