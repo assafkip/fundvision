@@ -126,6 +126,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_19af31be8154",
+    "person_name": "CleanTechnica",
+    "firm": "CleanTechnica",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Perovskite Solar Cells Will Make Solar Power Even Cheaper",
+    "excerpt": "The US startup Sofab is among the stakeholders pushing perovskite solar cell technology out of the laboratory and into the marketplace, offering improved supply chain stability alongside further cuts...",
+    "source_url": "https://cleantechnica.com/2026/07/13/perovskite-solar-cells-us-startups-uk-japan-australia/",
+    "source_type": "blog",
+    "source_date": "2026-07-13",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-13T12:52:46Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_5f7a3ad70fdf",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",
