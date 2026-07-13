@@ -306,6 +306,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_81fc3ef37ed1",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "hard",
+    "signal_category": "new_fund_raised",
+    "summary": "STAT+: Dementia study replicates promising outcomes following risk-reduction strategies",
+    "excerpt": "A dementia prevention trial praised as a \"landmark\" effort further demonstrated the promise of structured programs tailored to local cultures.",
+    "source_url": "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-13",
+    "confidence": "high",
+    "suggested_outreach_window": "1week",
+    "source_timestamp": "2026-07-13T16:49:15Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_7edaef373d65",
     "person_name": "STAT News",
     "firm": "STAT",
