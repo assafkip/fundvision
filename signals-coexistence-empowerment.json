@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_989f78e55e09",
+    "person_name": "ESG Today",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Masdar Secures Over $5 Billion for Massive 24/7 Clean Energy Project in UAE",
+    "excerpt": "UAE-based clean energy-focused developer Masdar announced that it has secured a $5.1 billion financing package, reaching [&#8230;]",
+    "source_url": "https://www.esgtoday.com/masdar-secures-over-5-billion-for-massive-24-7-clean-energy-project-in-uae/?utm_source=rss&utm_medium=rss&utm_campaign=masdar-secures-over-5-billion-for-massive-24-7-clean-energy-project-in-uae",
+    "source_type": "news",
+    "source_date": "2026-07-13",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-13T08:42:33Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_7e5faf6ac1ba",
     "person_name": "ESG Today",
     "firm": "news",
