@@ -288,6 +288,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_b705e6975df8",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Opinion: Small Changes, Big Relief: How States Can Support School Districts",
+    "excerpt": "State education agencies are being asked to do something they have rarely been asked to do before: lead. As the federal government\u2019s influence over education recedes, leaving confusion in its wake,...",
+    "source_url": "https://www.the74million.org/article/small-changes-big-relief-how-states-can-support-school-districts/",
+    "source_type": "blog",
+    "source_date": "2026-07-13",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-13T14:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_88bf334f748f",
     "person_name": "The Hechinger Report",
     "firm": "news",
