@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_3867c8e33a2f",
+    "person_name": "The Hechinger Report",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "sector_pain",
+    "summary": "OPINION: Poor Southern states have a brain drain problem. Public universities can and should be doing more to help",
+    "excerpt": "Confidence in higher education is declining across the United States. Fewer Americans say a college degree is very important: A growing share believe the system is headed in the wrong direction,...",
+    "source_url": "https://hechingerreport.org/opinion-southern-states-have-a-brain-drain-problem-public-universities-can-and-should-be-doing-more-to-help/",
+    "source_type": "news",
+    "source_date": "2026-07-13",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-13T05:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_88bf334f748f",
     "person_name": "The Hechinger Report",
     "firm": "news",
