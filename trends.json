@@ -1,22 +1,22 @@
 {
-  "generated": "2026-07-14T02:06:26Z",
+  "generated": "2026-07-14T05:27:15Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 2640,
-      "recent7": 1747,
+      "total": 2642,
+      "recent7": 1749,
       "sparkline": [
         66,
         110,
         648,
-        1747
+        1749
       ],
       "momentum_pct": 213,
       "momentum_basis": "7d",
       "hard_count": 116,
       "hard_ratio": 0.044,
       "exit_count": 5,
-      "talk_count": 2486,
+      "talk_count": 2488,
       "whitespace_score": 21.4,
       "rising": [
         {
@@ -36,8 +36,8 @@
         },
         {
           "term": "cybersecurity",
-          "count": 271,
-          "delta": 261
+          "count": 272,
+          "delta": 262
         },
         {
           "term": "x2019",
@@ -64,7 +64,7 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 797
+          "count": 798
         },
         {
           "name": "Reddit Cybersecurity",
@@ -95,21 +95,21 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 443,
-      "recent7": 275,
+      "total": 447,
+      "recent7": 279,
       "sparkline": [
         10,
         25,
         122,
-        275
+        279
       ],
-      "momentum_pct": 162,
+      "momentum_pct": 164,
       "momentum_basis": "7d",
-      "hard_count": 41,
-      "hard_ratio": 0.093,
+      "hard_count": 44,
+      "hard_ratio": 0.098,
       "exit_count": 10,
-      "talk_count": 370,
-      "whitespace_score": 9.0,
+      "talk_count": 371,
+      "whitespace_score": 8.4,
       "rising": [
         {
           "term": "financial",
@@ -156,7 +156,7 @@
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 27
+          "count": 30
         },
         {
           "name": "Tearsheet",
@@ -187,21 +187,21 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 339,
-      "recent7": 171,
+      "total": 341,
+      "recent7": 173,
       "sparkline": [
         15,
         34,
         102,
-        171
+        173
       ],
-      "momentum_pct": 103,
+      "momentum_pct": 104,
       "momentum_basis": "7d",
       "hard_count": 27,
-      "hard_ratio": 0.08,
+      "hard_ratio": 0.079,
       "exit_count": 2,
-      "talk_count": 302,
-      "whitespace_score": 11.2,
+      "talk_count": 304,
+      "whitespace_score": 11.3,
       "rising": [
         {
           "term": "openai",
@@ -248,7 +248,7 @@
         {
           "name": "Simon Willison",
           "firm": "simonwillison.net",
-          "count": 28
+          "count": 29
         },
         {
           "name": "Jason Lemkin",
@@ -540,26 +540,26 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 156,
-      "recent7": 69,
+      "total": 161,
+      "recent7": 74,
       "sparkline": [
         5,
         5,
         75,
-        69
+        74
       ],
-      "momentum_pct": 79,
+      "momentum_pct": 85,
       "momentum_basis": "7d",
-      "hard_count": 1,
-      "hard_ratio": 0.006,
+      "hard_count": 2,
+      "hard_ratio": 0.012,
       "exit_count": 1,
-      "talk_count": 150,
-      "whitespace_score": 150.0,
+      "talk_count": 154,
+      "whitespace_score": 77.0,
       "rising": [
         {
           "term": "marketing",
-          "count": 32,
-          "delta": 30
+          "count": 34,
+          "delta": 32
         },
         {
           "term": "brand",
@@ -572,6 +572,11 @@
           "delta": 21
         },
         {
+          "term": "media",
+          "count": 19,
+          "delta": 19
+        },
+        {
           "term": "meta",
           "count": 19,
           "delta": 19
@@ -582,17 +587,12 @@
           "delta": 18
         },
         {
-          "term": "media",
-          "count": 17,
-          "delta": 17
+          "term": "creators",
+          "count": 16,
+          "delta": 16
         },
         {
           "term": "world",
-          "count": 15,
-          "delta": 15
-        },
-        {
-          "term": "creators",
           "count": 15,
           "delta": 15
         }
@@ -601,7 +601,7 @@
         {
           "name": "Digiday",
           "firm": "Digiday",
-          "count": 26
+          "count": 31
         },
         {
           "name": "Jason Lemkin",
@@ -789,15 +789,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1747,
+        "recent7": 1749,
         "momentum_pct": 213,
         "momentum_basis": "7d",
-        "total": 2640,
+        "total": 2642,
         "sparkline": [
           66,
           110,
           648,
-          1747
+          1749
         ],
         "hard_ratio": 0.044,
         "whitespace_score": 21.4
@@ -805,34 +805,34 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 275,
-        "momentum_pct": 162,
+        "recent7": 279,
+        "momentum_pct": 164,
         "momentum_basis": "7d",
-        "total": 443,
+        "total": 447,
         "sparkline": [
           10,
           25,
           122,
-          275
+          279
         ],
-        "hard_ratio": 0.093,
-        "whitespace_score": 9.0
+        "hard_ratio": 0.098,
+        "whitespace_score": 8.4
       },
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 171,
-        "momentum_pct": 103,
+        "recent7": 173,
+        "momentum_pct": 104,
         "momentum_basis": "7d",
-        "total": 339,
+        "total": 341,
         "sparkline": [
           15,
           34,
           102,
-          171
+          173
         ],
-        "hard_ratio": 0.08,
-        "whitespace_score": 11.2
+        "hard_ratio": 0.079,
+        "whitespace_score": 11.3
       },
       {
         "id": "climate",
@@ -901,18 +901,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 69,
-        "momentum_pct": 79,
+        "recent7": 74,
+        "momentum_pct": 85,
         "momentum_basis": "7d",
-        "total": 156,
+        "total": 161,
         "sparkline": [
           5,
           5,
           75,
-          69
+          74
         ],
-        "hard_ratio": 0.006,
-        "whitespace_score": 150.0
+        "hard_ratio": 0.012,
+        "whitespace_score": 77.0
       },
       {
         "id": "coexistence-empowerment",
@@ -949,8 +949,8 @@
       },
       {
         "term": "cybersecurity",
-        "count": 273,
-        "delta": 262
+        "count": 274,
+        "delta": 263
       },
       {
         "term": "data",
@@ -1105,6 +1105,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 4605
+    "total_signals": 4618
   }
 }
