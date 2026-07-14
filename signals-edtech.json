@@ -198,6 +198,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_6bf2435dc664",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Opinion: America\u2019s Public Schools Are Pushing 50. It\u2019s Time To Act Like It",
+    "excerpt": "The average public school building in America is now 49 years old. In more than half of U.S. school districts, those buildings require significant repairs or full replacement. Too many students are...",
+    "source_url": "https://www.the74million.org/article/americas-public-schools-are-pushing-50-its-time-to-act-like-it/",
+    "source_type": "blog",
+    "source_date": "2026-07-14",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-14T12:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_3867c8e33a2f",
     "person_name": "The Hechinger Report",
     "firm": "news",

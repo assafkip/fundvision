@@ -54,6 +54,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_de7c4c50a409",
+    "person_name": "ESG Today",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Korea Significantly Expands Number of Companies Under Mandatory Sustainability Reporting Rules",
+    "excerpt": "Korea\u2019s Financial Services Commission (FSC) announced the release of its finalized roadmap for sustainability (ESG) [&#8230;]",
+    "source_url": "https://www.esgtoday.com/korea-significantly-expands-mandatory-sustainability-reporting-requirements/?utm_source=rss&utm_medium=rss&utm_campaign=korea-significantly-expands-mandatory-sustainability-reporting-requirements",
+    "source_type": "news",
+    "source_date": "2026-07-14",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-14T12:56:17Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_989f78e55e09",
     "person_name": "ESG Today",
     "firm": "news",
