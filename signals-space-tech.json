@@ -468,6 +468,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_6659817fa926",
+    "person_name": "Space.com",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "'Full steam ahead': NASA ramps up prep for Artemis III astronaut launch in 2027",
+    "excerpt": "NASA is busy preparing for Artemis III, the next crewed mission of its moon program launching on the massive SLS rocket next year. Hardware is coming together and agency personnel have begun launch...",
+    "source_url": "https://www.space.com/space-exploration/artemis/full-steam-ahead-nasa-ramps-up-prep-for-artemis-iii-astronaut-launch-in-2027",
+    "source_type": "news",
+    "source_date": "2026-07-15",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-15T22:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_6ac5a0a0b02c",
     "person_name": "Ars Technica Space",
     "firm": "Ars Technica",

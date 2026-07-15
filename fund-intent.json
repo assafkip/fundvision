@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-15T21:57:12Z",
+  "generated": "2026-07-15T22:58:32Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 195,
-    "deal_rows_attributed": 95,
-    "funds_tracked": 51,
-    "fetch_attempts": 20,
-    "fetchable_pct": 0,
+    "deal_rows_seen": 197,
+    "deal_rows_attributed": 97,
+    "funds_tracked": 55,
+    "fetch_attempts": 21,
+    "fetchable_pct": 5,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -325,6 +325,42 @@
           "date": "2026-07-04",
           "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
+      "fund": "Motley Fool Ventures",
+      "thesis": "Revealed focus: Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-15",
+          "summary": "/C O R R E C T I O N -- EdVisorly/",
+          "url": "https://www.prnewswire.com/news-releases/edvisorly-raises-13-3-million-series-a-to-strengthen-enrollment-success-across-americas-colleges--universities-302820007.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
+          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "This startup pits dealerships against each other to bid on your used car",
+          "url": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/"
         }
       ]
     },
@@ -1026,6 +1062,126 @@
       ]
     },
     {
+      "fund": "Breachway Capital",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-15",
+          "summary": "/C O R R E C T I O N -- EdVisorly/",
+          "url": "https://www.prnewswire.com/news-releases/edvisorly-raises-13-3-million-series-a-to-strengthen-enrollment-success-across-americas-colleges--universities-302820007.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
+          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
+        }
+      ]
+    },
+    {
+      "fund": "Strada Education Foundation",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-15",
+          "summary": "/C O R R E C T I O N -- EdVisorly/",
+          "url": "https://www.prnewswire.com/news-releases/edvisorly-raises-13-3-million-series-a-to-strengthen-enrollment-success-across-americas-colleges--universities-302820007.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
+          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
+        }
+      ]
+    },
+    {
+      "fund": "Juvo Ventures",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-15",
+          "summary": "/C O R R E C T I O N -- EdVisorly/",
+          "url": "https://www.prnewswire.com/news-releases/edvisorly-raises-13-3-million-series-a-to-strengthen-enrollment-success-across-americas-colleges--universities-302820007.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
+          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
+        }
+      ]
+    },
+    {
+      "fund": "Zeal Capital Partners",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-15",
+          "summary": "/C O R R E C T I O N -- EdVisorly/",
+          "url": "https://www.prnewswire.com/news-releases/edvisorly-raises-13-3-million-series-a-to-strengthen-enrollment-success-across-americas-colleges--universities-302820007.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
+          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
+        }
+      ]
+    },
+    {
       "fund": "Tencent",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -1262,36 +1418,6 @@
           "date": "2026-07-07",
           "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
           "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
-        }
-      ]
-    },
-    {
-      "fund": "Motley Fool Ventures",
-      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 7,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-08",
-          "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
-          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "This startup pits dealerships against each other to bid on your used car",
-          "url": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/"
         }
       ]
     },
@@ -2015,6 +2141,13 @@
     ],
     "Cybersecurity": [
       {
+        "fund": "Motley Fool Ventures",
+        "thesis": "Revealed focus: Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
         "fund": "Intel Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -2113,14 +2246,35 @@
         "recent30": 3
       },
       {
-        "fund": "Index Ventures",
+        "fund": "Breachway Capital",
         "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 2,
         "recent30": 2
       },
       {
-        "fund": "Motley Fool Ventures",
+        "fund": "Strada Education Foundation",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Juvo Ventures",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Zeal Capital Partners",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Index Ventures",
         "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 2,

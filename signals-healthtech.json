@@ -396,6 +396,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_182948e1bcc5",
+    "person_name": "Healthcare Dive",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Judge tosses another No Surprises lawsuit against HaloMD",
+    "excerpt": "A federal judge dismissed another lawsuit brought by an Elevance health plan alleging the billings intermediary was gaming the arbitration process set up by the No Surprises Act.",
+    "source_url": "https://www.healthcaredive.com/news/judge-dismisses-elevance-no-surprises-lawsuit-georgia-halomd/825327/",
+    "source_type": "news",
+    "source_date": "2026-07-15",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-15T14:20:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_26898b566a85",
     "person_name": "The Healthcare Blog",
     "firm": "The Healthcare Blog",
