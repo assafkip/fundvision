@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-15T14:46:35Z",
+  "generated": "2026-07-15T16:18:51Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 188,
-    "deal_rows_attributed": 93,
+    "deal_rows_seen": 193,
+    "deal_rows_attributed": 95,
     "funds_tracked": 51,
     "fetch_attempts": 24,
     "fetchable_pct": 17,
@@ -575,6 +575,47 @@
       ]
     },
     {
+      "fund": "Khosla Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-15",
+          "summary": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
+          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
+          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+        }
+      ]
+    },
+    {
       "fund": "General Catalyst",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -1086,36 +1127,6 @@
           "date": "2026-07-13",
           "summary": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
           "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
-        }
-      ]
-    },
-    {
-      "fund": "Khosla Ventures",
-      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 5,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
-          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
         }
       ]
     },
@@ -2067,6 +2078,13 @@
         "recent30": 3
       },
       {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "General Catalyst",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -2093,13 +2111,6 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 3
-      },
-      {
-        "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
       },
       {
         "fund": "Index Ventures",
@@ -2312,6 +2323,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
+      },
+      {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Google",

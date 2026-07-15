@@ -180,6 +180,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_fda349e32768",
+    "person_name": "Adweek",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Uber\u2019s Top Ad Exec Kristi Argyilan Joins The Trade Desk as Chief Commercial Officer",
+    "excerpt": "The Trade Desk has appointed Kristi Argyilan as its new chief commercial officer. Argyilan, an advertising and commerce industry veteran, joins the popular demand-side platform from Uber, where she...",
+    "source_url": "https://www.adweek.com/media/ubers-top-ad-exec-kristi-argyilan-joins-the-trade-desk-as-chief-commercial-officer/",
+    "source_type": "news",
+    "source_date": "2026-07-15",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-15T12:00:44Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_196bcbb99d7d",
     "person_name": "Digiday",
     "firm": "Digiday",
