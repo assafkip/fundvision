@@ -126,6 +126,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_c2846d19171b",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "What to know about the parasitic diarrhea outbreak",
+    "excerpt": "Fallout from the end of ACA subsidies, the FDA CBER acting director \"on planet Earth,\" and more health news from Morning Rounds",
+    "source_url": "https://www.statnews.com/2026/07/15/health-news-what-to-know-about-cyclosporiasis-parasitic-diarrhea/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-15",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-15T11:58:15Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_26898b566a85",
     "person_name": "The Healthcare Blog",
     "firm": "The Healthcare Blog",
