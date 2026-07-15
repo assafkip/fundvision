@@ -90,6 +90,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_688ffe51cf49",
+    "person_name": "CleanTechnica",
+    "firm": "CleanTechnica",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "500 kW Floating Offshore Solar Farm Arrives in Valencia",
+    "excerpt": "Spain is getting its first floating solar PV platform \u2014 or has just got it, actually. The 500 kW floating solar PV platform, developed by BlueNewables, just arrived at the Port of Valencia. The...",
+    "source_url": "https://cleantechnica.com/2026/07/14/500-kw-floating-offshore-solar-farm-arrives-in-valencia/",
+    "source_type": "blog",
+    "source_date": "2026-07-15",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-15T03:14:34Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_3477ca783585",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",
