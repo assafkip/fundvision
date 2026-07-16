@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-16T19:04:44Z",
+  "generated": "2026-07-16T20:54:14Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 221,
-    "deal_rows_attributed": 114,
-    "funds_tracked": 63,
-    "fetch_attempts": 22,
-    "fetchable_pct": 0,
+    "deal_rows_seen": 222,
+    "deal_rows_attributed": 115,
+    "funds_tracked": 64,
+    "fetch_attempts": 23,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -2129,6 +2129,36 @@
       ]
     },
     {
+      "fund": "Teleport",
+      "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-16",
+          "summary": "Kimi K3, and what we can still learn from the pelican benchmark",
+          "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-15",
+          "summary": "xai-org/grok-build, now open source",
+          "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
+        }
+      ]
+    },
+    {
       "fund": "Theory Ventures",
       "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -2811,6 +2841,13 @@
         "coverage": 6,
         "sector_count": 2,
         "recent30": 6
+      },
+      {
+        "fund": "Teleport",
+        "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Theory Ventures",

@@ -396,6 +396,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_348a4cac71d5",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Predicting biotech clinical trials & a new Alzheimer\u2019s drug controversy",
+    "excerpt": "This week on \"The Readout LOUD\" podcast: a new Alzheimer's drug controversy and prediction markets for clinical trials and FDA drug reviews. Listen now.",
+    "source_url": "https://www.statnews.com/2026/07/16/readout-loud-podcast-predicting-clinical-trials-biogen-alzheimers-tau/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-16",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-16T20:06:43Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_42fd40639ca4",
     "person_name": "The Healthcare Blog",
     "firm": "The Healthcare Blog",
