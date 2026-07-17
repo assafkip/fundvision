@@ -270,6 +270,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_34947dd0c0b8",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Connecticut Sues, Again, Over Withheld School Mental Health Grants",
+    "excerpt": "Connecticut Attorney General William Tong is again joining a lawsuit against the U.S. Department of Education as it continues trying to end federal grants for school-based mental health services. If...",
+    "source_url": "https://www.the74million.org/article/connecticut-sues-again-over-withheld-school-mental-health-grants/",
+    "source_type": "blog",
+    "source_date": "2026-07-17",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-17T16:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_34aabbcd4e87",
     "person_name": "The 74",
     "firm": "The 74 Million",

@@ -234,6 +234,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_dcbeab36cdbb",
+    "person_name": "Ben Thompson",
+    "firm": "Stratechery",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "2026.29: Mainframes and Main Characters",
+    "excerpt": "The best Stratechery content from the week of July 13, 2026, including the end of the mainframe, the continuing adventures of OpenAI, and answering the question, \"Is Netflix Washed?\".",
+    "source_url": "https://stratechery.com/2026/mainframes-and-main-characters/",
+    "source_type": "blog",
+    "source_date": "2026-07-17",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-17T17:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_ca3748d7a8fe",
     "person_name": "Digiday",
     "firm": "Digiday",
