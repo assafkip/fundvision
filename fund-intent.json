@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-17T12:06:55Z",
+  "generated": "2026-07-17T14:40:58Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 226,
-    "deal_rows_attributed": 116,
-    "funds_tracked": 64,
-    "fetch_attempts": 23,
-    "fetchable_pct": 4,
+    "deal_rows_seen": 228,
+    "deal_rows_attributed": 118,
+    "funds_tracked": 66,
+    "fetch_attempts": 24,
+    "fetchable_pct": 8,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -689,6 +689,47 @@
           "date": "2026-07-15",
           "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
           "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
+      "fund": "Index Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-17",
+          "summary": "Feathery, an AI Platform Aiming to Transform Data Management in Finance, Raises $30 Million",
+          "url": "https://www.crowdfundinsider.com/2026/07/292192-feathery-an-ai-platform-aiming-to-transform-data-management-in-finance-raises-30-million/"
         },
         {
           "sector": "Cybersecurity",
@@ -1474,32 +1515,37 @@
       ]
     },
     {
-      "fund": "Index Ventures",
-      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "fund": "Bain Capital Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
       "sectors": [
         {
           "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
         }
       ],
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-17",
+          "summary": "Feathery, an AI Platform Aiming to Transform Data Management in Finance, Raises $30 Million",
+          "url": "https://www.crowdfundinsider.com/2026/07/292192-feathery-an-ai-platform-aiming-to-transform-data-management-in-finance-raises-30-million/"
+        },
         {
           "sector": "Cybersecurity",
           "date": "2026-07-10",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
           "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
         }
       ]
     },
@@ -2289,6 +2335,36 @@
       ]
     },
     {
+      "fund": "Interlagos",
+      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-17",
+          "summary": "Beyond Reach Labs Raises $10M Seed, Moves to NYC",
+          "url": "https://payloadspace.com/beyond-reach-labs-raises-10m-seed-moves-to-nyc/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        }
+      ]
+    },
+    {
       "fund": "Axpo",
       "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -2503,6 +2579,13 @@
         "recent30": 3
       },
       {
+        "fund": "Index Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "Acrew Capital",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -2546,13 +2629,6 @@
       },
       {
         "fund": "Zeal Capital Partners",
-        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "Index Ventures",
         "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 2,
@@ -2645,6 +2721,13 @@
       {
         "fund": "USV",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Bain Capital Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -2806,6 +2889,13 @@
         "recent30": 3
       },
       {
+        "fund": "Index Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Google",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -2818,6 +2908,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "Bain Capital Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "LocalGlobe",
@@ -3109,6 +3206,13 @@
         "coverage": 3,
         "sector_count": 3,
         "recent30": 3
+      },
+      {
+        "fund": "Interlagos",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Andreessen Horowitz",

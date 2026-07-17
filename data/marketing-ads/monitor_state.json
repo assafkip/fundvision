@@ -1,23 +1,23 @@
 {
-  "last_run": "2026-07-17T12:06:48.738312",
+  "last_run": "2026-07-17T14:40:48.128133",
   "feeds_checked": {
-    "https://chiefmartec.com/feed/": "2026-07-17T12:06:48.279643",
+    "https://chiefmartec.com/feed/": "2026-07-17T14:40:47.781722",
     "https://www.adexchanger.com/feed/": "2026-07-07T00:59:05.609195",
-    "https://digiday.com/feed/": "2026-07-17T12:06:48.534467",
-    "https://sparktoro.com/blog/feed/": "2026-07-17T12:06:48.298170",
-    "https://www.socialmediatoday.com/feeds/news/": "2026-07-17T12:06:48.540048",
-    "https://www.marketingdive.com/feeds/news/": "2026-07-17T12:06:48.303446",
+    "https://digiday.com/feed/": "2026-07-17T14:40:47.590820",
+    "https://sparktoro.com/blog/feed/": "2026-07-17T14:40:47.597940",
+    "https://www.socialmediatoday.com/feeds/news/": "2026-07-17T14:40:47.988134",
+    "https://www.marketingdive.com/feeds/news/": "2026-07-17T14:40:48.013510",
     "https://searchengineland.com/feed": "2026-07-07T00:59:05.666940",
-    "https://future.com/feed/": "2026-07-17T12:06:48.638014",
-    "https://stratechery.com/feed/": "2026-07-17T12:06:48.679426",
-    "https://www.lennysnewsletter.com/feed": "2026-07-17T12:06:48.456094",
-    "https://2pml.com/feed/": "2026-07-17T12:06:48.206733",
-    "https://www.adweek.com/feed/": "2026-07-17T12:06:48.545688",
-    "https://andrewchen.com/feed/": "2026-07-17T12:06:48.731239",
-    "https://www.forentrepreneurs.com/feed/": "2026-07-17T12:06:48.481253",
-    "https://www.saastr.com/feed/": "2026-07-17T12:06:48.137771",
+    "https://future.com/feed/": "2026-07-17T14:40:47.718581",
+    "https://stratechery.com/feed/": "2026-07-17T14:40:47.980488",
+    "https://www.lennysnewsletter.com/feed": "2026-07-17T14:40:47.908878",
+    "https://2pml.com/feed/": "2026-07-17T14:40:47.538321",
+    "https://www.adweek.com/feed/": "2026-07-17T14:40:47.727862",
+    "https://andrewchen.com/feed/": "2026-07-17T14:40:48.120910",
+    "https://www.forentrepreneurs.com/feed/": "2026-07-17T14:40:47.928183",
+    "https://www.saastr.com/feed/": "2026-07-17T14:40:47.479967",
     "https://kylepoyar.substack.com/feed": "2026-07-07T00:59:05.733090",
     "https://mkt1.substack.com/feed": "2026-07-07T00:59:06.095710"
   },
-  "signals_generated": 563
+  "signals_generated": 566
 }
