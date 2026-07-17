@@ -324,6 +324,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_326875663721",
+    "person_name": "Inside Higher Ed",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Homeland Security Limits How Long International Students Can Stay in U.S.",
+    "excerpt": "Homeland Security Limits How Long International Students Can Stay in U.S. Katherine Knott Thu, 07/16/2026 - 11:00 AM International students previously could stay as long as their program lasted. The...",
+    "source_url": "https://www.insidehighered.com/news/government/2026/07/16/trump-administration-finalizes-limits-student-visas",
+    "source_type": "news",
+    "source_date": "2026-07-16",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-16T15:00:05Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_f665a8e5db2f",
     "person_name": "EdSurge",
     "firm": "EdSurge",

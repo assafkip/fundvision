@@ -1,23 +1,23 @@
 {
-  "last_run": "2026-07-16T23:56:16.289057",
+  "last_run": "2026-07-17T02:24:47.019728",
   "feeds_checked": {
-    "https://techcrunch.com/category/space/feed/": "2026-07-16T23:56:15.375411",
-    "https://spacenews.com/feed/": "2026-07-16T23:56:15.077612",
+    "https://techcrunch.com/category/space/feed/": "2026-07-17T02:24:45.702353",
+    "https://spacenews.com/feed/": "2026-07-17T02:24:45.753002",
     "https://spacecapital.substack.com/feed": "2026-07-07T00:59:06.817844",
-    "https://feeds.arstechnica.com/arstechnica/science": "2026-07-16T23:56:14.724680",
-    "https://www.universetoday.com/feed/": "2026-07-16T23:56:15.021219",
-    "https://payloadspace.com/feed/": "2026-07-16T23:56:15.009509",
+    "https://feeds.arstechnica.com/arstechnica/science": "2026-07-17T02:24:46.055536",
+    "https://www.universetoday.com/feed/": "2026-07-17T02:24:46.166137",
+    "https://payloadspace.com/feed/": "2026-07-17T02:24:45.783542",
     "https://spaceambition.substack.com/feed": "2026-07-07T00:59:06.623412",
-    "https://www.space.com/feeds/all": "2026-07-16T23:56:15.313415",
-    "https://spacepolicyonline.com/feed/": "2026-07-16T23:56:15.511752",
-    "https://www.nasaspaceflight.com/feed/": "2026-07-16T23:56:15.423856",
-    "https://seraphim.vc/feed/": "2026-07-16T23:56:16.025676",
-    "https://orbitalindex.com/feed.xml": "2026-07-16T23:56:14.972918",
+    "https://www.space.com/feeds/all": "2026-07-17T02:24:46.451346",
+    "https://spacepolicyonline.com/feed/": "2026-07-17T02:24:46.242531",
+    "https://www.nasaspaceflight.com/feed/": "2026-07-17T02:24:46.493744",
+    "https://seraphim.vc/feed/": "2026-07-17T02:24:46.734515",
+    "https://orbitalindex.com/feed.xml": "2026-07-17T02:24:45.994301",
     "https://spacedotbiz.substack.com/feed": "2026-07-07T00:59:06.702661",
     "https://payload.substack.com/feed": "2026-07-07T00:59:06.783083",
     "https://www.satellitetoday.com/feed/": "2026-07-07T00:59:06.519971",
-    "https://foundersfund.com/feed/": "2026-07-16T23:56:15.363063",
-    "https://europeanspaceflight.com/feed/": "2026-07-16T23:56:16.280868"
+    "https://foundersfund.com/feed/": "2026-07-17T02:24:46.154888",
+    "https://europeanspaceflight.com/feed/": "2026-07-17T02:24:47.012194"
   },
-  "signals_generated": 636
+  "signals_generated": 640
 }
