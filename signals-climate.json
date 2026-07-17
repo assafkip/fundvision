@@ -612,6 +612,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_6b1304ebf5cf",
+    "person_name": "CleanTechnica",
+    "firm": "CleanTechnica",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Australia Nails It Again \u2014 On Large Data Centers This Time",
+    "excerpt": "The United States kicked off the solar power industry, but then Germany took it to another level, and Australia followed close behind and became true leader globally in rooftop solar power adoption....",
+    "source_url": "https://cleantechnica.com/2026/07/17/australia-nails-it-again-on-large-data-centers-this-time/",
+    "source_type": "blog",
+    "source_date": "2026-07-17",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-17T21:36:03Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_caf35cb7c595",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",

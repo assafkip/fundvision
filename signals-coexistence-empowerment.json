@@ -108,6 +108,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_6f640c6e4802",
+    "person_name": "ESG News",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "EU Targets All 27 States Over Buildings Law",
+    "excerpt": "The European Commission has opened infringement procedures against every EU member state over delays in implementing the bloc\u2019s strengthened buildings law. The Commission sent formal notice letters...",
+    "source_url": "https://esgnews.com/eu-targets-all-27-states-over-buildings-law/?utm_source=rss&utm_medium=rss&utm_campaign=eu-targets-all-27-states-over-buildings-law",
+    "source_type": "news",
+    "source_date": "2026-07-17",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-17T20:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_d4ff0550f38a",
     "person_name": "Social Enterprise UK",
     "firm": "news",
