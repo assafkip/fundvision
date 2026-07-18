@@ -1,22 +1,22 @@
 {
-  "generated": "2026-07-18T21:47:04Z",
+  "generated": "2026-07-18T22:44:44Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 4427,
-      "recent7": 2310,
+      "total": 4432,
+      "recent7": 2315,
       "sparkline": [
         80,
         159,
         1765,
-        2310
+        2315
       ],
-      "momentum_pct": 114,
+      "momentum_pct": 115,
       "momentum_basis": "7d",
       "hard_count": 187,
       "hard_ratio": 0.042,
       "exit_count": 13,
-      "talk_count": 4181,
+      "talk_count": 4186,
       "whitespace_score": 22.4,
       "rising": [
         {
@@ -36,8 +36,8 @@
         },
         {
           "term": "cybersecurity",
-          "count": 465,
-          "delta": 445
+          "count": 466,
+          "delta": 446
         },
         {
           "term": "x2019",
@@ -46,8 +46,8 @@
         },
         {
           "term": "removed",
-          "count": 297,
-          "delta": 297
+          "count": 298,
+          "delta": 298
         },
         {
           "term": "data",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1395
+          "count": 1398
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 670
+          "count": 672
         },
         {
           "name": "Security Conferences",
@@ -799,15 +799,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2310,
-        "momentum_pct": 114,
+        "recent7": 2315,
+        "momentum_pct": 115,
         "momentum_basis": "7d",
-        "total": 4427,
+        "total": 4432,
         "sparkline": [
           80,
           159,
           1765,
-          2310
+          2315
         ],
         "hard_ratio": 0.042,
         "whitespace_score": 22.4
@@ -959,8 +959,8 @@
       },
       {
         "term": "cybersecurity",
-        "count": 469,
-        "delta": 448
+        "count": 470,
+        "delta": 449
       },
       {
         "term": "data",
@@ -974,8 +974,8 @@
       },
       {
         "term": "removed",
-        "count": 298,
-        "delta": 298
+        "count": 299,
+        "delta": 299
       },
       {
         "term": "million",
@@ -1115,6 +1115,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 7356
+    "total_signals": 7361
   }
 }
