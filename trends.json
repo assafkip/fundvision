@@ -1,53 +1,53 @@
 {
-  "generated": "2026-07-18T11:58:35Z",
+  "generated": "2026-07-18T13:22:34Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 4293,
-      "recent7": 2176,
+      "total": 4306,
+      "recent7": 2189,
       "sparkline": [
         80,
         159,
         1765,
-        2176
+        2189
       ],
       "momentum_pct": 108,
       "momentum_basis": "7d",
       "hard_count": 182,
       "hard_ratio": 0.042,
       "exit_count": 13,
-      "talk_count": 4052,
+      "talk_count": 4065,
       "whitespace_score": 22.3,
       "rising": [
         {
           "term": "security",
-          "count": 879,
-          "delta": 798
+          "count": 881,
+          "delta": 800
         },
         {
           "term": "prnewswire",
-          "count": 522,
-          "delta": 522
+          "count": 524,
+          "delta": 524
         },
         {
           "term": "x2026",
-          "count": 517,
-          "delta": 517
+          "count": 524,
+          "delta": 524
         },
         {
           "term": "cybersecurity",
-          "count": 437,
-          "delta": 417
+          "count": 441,
+          "delta": 421
         },
         {
           "term": "x2019",
-          "count": 286,
-          "delta": 286
+          "count": 290,
+          "delta": 290
         },
         {
           "term": "data",
-          "count": 330,
-          "delta": 283
+          "count": 331,
+          "delta": 284
         },
         {
           "term": "removed",
@@ -56,15 +56,15 @@
         },
         {
           "term": "cyber",
-          "count": 258,
-          "delta": 240
+          "count": 259,
+          "delta": 241
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1314
+          "count": 1324
         },
         {
           "name": "Reddit Cybersecurity",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 53
+          "count": 54
         },
         {
           "name": "Ping Li",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 510,
-      "recent7": 221,
+      "total": 511,
+      "recent7": 222,
       "sparkline": [
         25,
         55,
         187,
-        221
+        222
       ],
       "momentum_pct": 77,
       "momentum_basis": "7d",
       "hard_count": 40,
       "hard_ratio": 0.078,
       "exit_count": 8,
-      "talk_count": 446,
+      "talk_count": 447,
       "whitespace_score": 11.2,
       "rising": [
         {
@@ -258,7 +258,7 @@
         {
           "name": "Sarah Tavel",
           "firm": "Benchmark",
-          "count": 18
+          "count": 19
         },
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
@@ -371,41 +371,41 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 463,
-      "recent7": 202,
+      "total": 466,
+      "recent7": 205,
       "sparkline": [
         10,
         43,
         199,
-        202
+        205
       ],
-      "momentum_pct": 79,
+      "momentum_pct": 80,
       "momentum_basis": "7d",
       "hard_count": 17,
-      "hard_ratio": 0.037,
+      "hard_ratio": 0.036,
       "exit_count": 3,
-      "talk_count": 434,
-      "whitespace_score": 25.5,
+      "talk_count": 437,
+      "whitespace_score": 25.7,
       "rising": [
         {
           "term": "energy",
-          "count": 160,
-          "delta": 138
+          "count": 161,
+          "delta": 139
         },
         {
           "term": "electric",
-          "count": 118,
-          "delta": 118
+          "count": 121,
+          "delta": 121
+        },
+        {
+          "term": "power",
+          "count": 93,
+          "delta": 75
         },
         {
           "term": "solar",
           "count": 84,
           "delta": 75
-        },
-        {
-          "term": "power",
-          "count": 92,
-          "delta": 74
         },
         {
           "term": "tesla",
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 152
+          "count": 153
         },
         {
           "name": "Utility Dive",
@@ -799,15 +799,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2176,
+        "recent7": 2189,
         "momentum_pct": 108,
         "momentum_basis": "7d",
-        "total": 4293,
+        "total": 4306,
         "sparkline": [
           80,
           159,
           1765,
-          2176
+          2189
         ],
         "hard_ratio": 0.042,
         "whitespace_score": 22.3
@@ -831,15 +831,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 221,
+        "recent7": 222,
         "momentum_pct": 77,
         "momentum_basis": "7d",
-        "total": 510,
+        "total": 511,
         "sparkline": [
           25,
           55,
           187,
-          221
+          222
         ],
         "hard_ratio": 0.078,
         "whitespace_score": 11.2
@@ -847,18 +847,18 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 202,
-        "momentum_pct": 79,
+        "recent7": 205,
+        "momentum_pct": 80,
         "momentum_basis": "7d",
-        "total": 463,
+        "total": 466,
         "sparkline": [
           10,
           43,
           199,
-          202
+          205
         ],
-        "hard_ratio": 0.037,
-        "whitespace_score": 25.5
+        "hard_ratio": 0.036,
+        "whitespace_score": 25.7
       },
       {
         "id": "space-tech",
@@ -944,33 +944,33 @@
     "rising": [
       {
         "term": "security",
-        "count": 914,
-        "delta": 828
+        "count": 916,
+        "delta": 830
       },
       {
         "term": "prnewswire",
-        "count": 522,
-        "delta": 522
+        "count": 524,
+        "delta": 524
       },
       {
         "term": "x2026",
-        "count": 517,
-        "delta": 517
+        "count": 524,
+        "delta": 524
       },
       {
         "term": "cybersecurity",
-        "count": 441,
-        "delta": 420
+        "count": 445,
+        "delta": 424
       },
       {
         "term": "data",
-        "count": 498,
-        "delta": 416
+        "count": 499,
+        "delta": 417
       },
       {
         "term": "x2019",
-        "count": 286,
-        "delta": 286
+        "count": 290,
+        "delta": 290
       },
       {
         "term": "removed",
@@ -989,8 +989,8 @@
       },
       {
         "term": "cyber",
-        "count": 268,
-        "delta": 248
+        "count": 269,
+        "delta": 249
       }
     ],
     "highlights": [
@@ -1000,6 +1000,18 @@
         "summary": "SaaStr AI App of the Week: Nue. The Revenue Platform Built for How B2B + AI Actually Prices Now",
         "category": "sector_pain",
         "url": "https://www.saastr.com/saastr-ai-app-of-the-week-nue-the-revenue-platform-built-for-how-b2b-ai-actually-prices-now/",
+        "date": "2026-07-18",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 0,
+        "hard": 0
+      },
+      {
+        "person": "Sarah Tavel",
+        "firm": "Benchmark",
+        "summary": "Sales Rep Annual Quotas in 2026: What High Performers Are Actually Carrying: $750k for SMB, $1.35m for Mid-Market, $2.25m for Enterprise",
+        "category": "market_commentary",
+        "url": "https://www.saastr.com/sales-rep-annual-quotas-what-high-performers-are-actually-carrying/",
         "date": "2026-07-18",
         "vertical": "AI / ML Infra",
         "vid": "ai-ml",
@@ -1101,20 +1113,8 @@
         "vid": "ai-ml",
         "days": 5,
         "hard": 0
-      },
-      {
-        "person": "Sightline Climate (CTVC)",
-        "firm": "Sightline Climate",
-        "summary": "\ud83c\udf0e H1'26 climate tech funding up 55% to $26bn, thanks to data centers",
-        "category": "market_commentary",
-        "url": "https://www.ctvc.co/h126-climate-tech-funding-up-55-to-26bn-thanks-to-data-centers/",
-        "date": "2026-07-13",
-        "vertical": "Climate / Energy",
-        "vid": "climate",
-        "days": 5,
-        "hard": 0
       }
     ],
-    "total_signals": 7189
+    "total_signals": 7206
   }
 }

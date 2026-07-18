@@ -198,6 +198,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_c1d16b732e92",
+    "person_name": "Sarah Tavel",
+    "firm": "Benchmark",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Sales Rep Annual Quotas in 2026: What High Performers Are Actually Carrying: $750k for SMB, $1.35m for Mid-Market, $2.25m for Enterprise",
+    "excerpt": "ICONIQ recently released their 2026 GTM benchmark report, and it shows that overall sales quotas and processes are similar to the pre-AI era. Just &#8230; ramped up. Top-quartile enterprise AEs are...",
+    "source_url": "https://www.saastr.com/sales-rep-annual-quotas-what-high-performers-are-actually-carrying/",
+    "source_type": "blog",
+    "source_date": "2026-07-18",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-18T12:10:56Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "vc"
+  },
+  {
     "id": "rss_ab9408e1dc0b",
     "person_name": "Shawn Wang (swyx) / Alessio Fanelli",
     "firm": "Latent Space",
