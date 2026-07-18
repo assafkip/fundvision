@@ -288,6 +288,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_5c45691e72fe",
+    "person_name": "Electrek",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Honda goes all-in on EVs in a multibillion dollar market: commercial lawnmowers",
+    "excerpt": "Honda Automobile dealers will have to wait a little longer for a self-driving EV that seriously worry Tesla or GM \u2013 but Honda Power Equipment dealers are playing in a multibillion market, too, and...",
+    "source_url": "https://electrek.co/2026/07/18/honda-goes-all-in-on-evs-in-a-multibillion-dollar-market-commercial-lawnmowers/",
+    "source_type": "news",
+    "source_date": "2026-07-18",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-18T19:56:41Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_2776b2e52abc",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",
