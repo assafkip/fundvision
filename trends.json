@@ -1,53 +1,53 @@
 {
-  "generated": "2026-07-18T16:54:54Z",
+  "generated": "2026-07-18T17:55:00Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 4361,
-      "recent7": 2244,
+      "total": 4379,
+      "recent7": 2262,
       "sparkline": [
         80,
         159,
         1765,
-        2244
+        2262
       ],
-      "momentum_pct": 111,
+      "momentum_pct": 112,
       "momentum_basis": "7d",
-      "hard_count": 183,
+      "hard_count": 184,
       "hard_ratio": 0.042,
       "exit_count": 13,
-      "talk_count": 4119,
+      "talk_count": 4136,
       "whitespace_score": 22.5,
       "rising": [
         {
           "term": "security",
-          "count": 893,
-          "delta": 812
+          "count": 894,
+          "delta": 813
         },
         {
           "term": "x2026",
-          "count": 538,
-          "delta": 538
+          "count": 542,
+          "delta": 542
         },
         {
           "term": "prnewswire",
-          "count": 527,
-          "delta": 527
+          "count": 530,
+          "delta": 530
         },
         {
           "term": "cybersecurity",
-          "count": 455,
-          "delta": 435
+          "count": 456,
+          "delta": 436
         },
         {
           "term": "x2019",
-          "count": 296,
-          "delta": 296
+          "count": 298,
+          "delta": 298
         },
         {
           "term": "removed",
-          "count": 290,
-          "delta": 290
+          "count": 292,
+          "delta": 292
         },
         {
           "term": "data",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1357
+          "count": 1368
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 656
+          "count": 660
         },
         {
           "name": "Security Conferences",
@@ -550,21 +550,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 228,
-      "recent7": 93,
+      "total": 229,
+      "recent7": 94,
       "sparkline": [
         3,
         30,
         95,
-        93
+        94
       ],
-      "momentum_pct": 69,
+      "momentum_pct": 70,
       "momentum_basis": "7d",
       "hard_count": 4,
-      "hard_ratio": 0.018,
+      "hard_ratio": 0.017,
       "exit_count": 1,
-      "talk_count": 219,
-      "whitespace_score": 54.8,
+      "talk_count": 220,
+      "whitespace_score": 55.0,
       "rising": [
         {
           "term": "brand",
@@ -624,6 +624,11 @@
           "count": 5
         },
         {
+          "name": "Lenny Rachitsky",
+          "firm": "Angel / Lenny's Newsletter",
+          "count": 1
+        },
+        {
           "name": "Ben Thompson",
           "firm": "Stratechery",
           "count": 1
@@ -632,41 +637,36 @@
           "name": "Rand Fishkin",
           "firm": "SparkToro",
           "count": 1
-        },
-        {
-          "name": "Web Smith",
-          "firm": "2PM",
-          "count": 1
         }
       ]
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 386,
-      "recent7": 143,
+      "total": 388,
+      "recent7": 145,
       "sparkline": [
         25,
         42,
         163,
-        143
+        145
       ],
-      "momentum_pct": 62,
+      "momentum_pct": 63,
       "momentum_basis": "7d",
-      "hard_count": 26,
-      "hard_ratio": 0.067,
+      "hard_count": 27,
+      "hard_ratio": 0.07,
       "exit_count": 7,
-      "talk_count": 333,
-      "whitespace_score": 12.8,
+      "talk_count": 334,
+      "whitespace_score": 12.4,
       "rising": [
         {
           "term": "space",
-          "count": 234,
-          "delta": 188
+          "count": 237,
+          "delta": 191
         },
         {
           "term": "launch",
-          "count": 106,
-          "delta": 79
+          "count": 109,
+          "delta": 82
         },
         {
           "term": "spacex",
@@ -703,7 +703,7 @@
         {
           "name": "SpaceNews",
           "firm": "SpaceNews",
-          "count": 80
+          "count": 82
         },
         {
           "name": "Payload",
@@ -799,15 +799,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2244,
-        "momentum_pct": 111,
+        "recent7": 2262,
+        "momentum_pct": 112,
         "momentum_basis": "7d",
-        "total": 4361,
+        "total": 4379,
         "sparkline": [
           80,
           159,
           1765,
-          2244
+          2262
         ],
         "hard_ratio": 0.042,
         "whitespace_score": 22.5
@@ -863,18 +863,18 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 143,
-        "momentum_pct": 62,
+        "recent7": 145,
+        "momentum_pct": 63,
         "momentum_basis": "7d",
-        "total": 386,
+        "total": 388,
         "sparkline": [
           25,
           42,
           163,
-          143
+          145
         ],
-        "hard_ratio": 0.067,
-        "whitespace_score": 12.8
+        "hard_ratio": 0.07,
+        "whitespace_score": 12.4
       },
       {
         "id": "healthtech",
@@ -911,18 +911,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 93,
-        "momentum_pct": 69,
+        "recent7": 94,
+        "momentum_pct": 70,
         "momentum_basis": "7d",
-        "total": 228,
+        "total": 229,
         "sparkline": [
           3,
           30,
           95,
-          93
+          94
         ],
-        "hard_ratio": 0.018,
-        "whitespace_score": 54.8
+        "hard_ratio": 0.017,
+        "whitespace_score": 55.0
       },
       {
         "id": "coexistence-empowerment",
@@ -944,23 +944,23 @@
     "rising": [
       {
         "term": "security",
-        "count": 928,
-        "delta": 842
+        "count": 930,
+        "delta": 844
       },
       {
         "term": "x2026",
-        "count": 538,
-        "delta": 538
+        "count": 542,
+        "delta": 542
       },
       {
         "term": "prnewswire",
-        "count": 527,
-        "delta": 527
+        "count": 530,
+        "delta": 530
       },
       {
         "term": "cybersecurity",
-        "count": 459,
-        "delta": 438
+        "count": 460,
+        "delta": 439
       },
       {
         "term": "data",
@@ -969,23 +969,23 @@
       },
       {
         "term": "x2019",
-        "count": 296,
-        "delta": 296
+        "count": 298,
+        "delta": 298
       },
       {
         "term": "removed",
-        "count": 291,
-        "delta": 291
+        "count": 293,
+        "delta": 293
       },
       {
         "term": "million",
-        "count": 296,
-        "delta": 275
+        "count": 297,
+        "delta": 276
       },
       {
         "term": "firm",
-        "count": 260,
-        "delta": 257
+        "count": 264,
+        "delta": 261
       },
       {
         "term": "cyber",
@@ -1015,6 +1015,18 @@
         "date": "2026-07-18",
         "vertical": "AI / ML Infra",
         "vid": "ai-ml",
+        "days": 0,
+        "hard": 0
+      },
+      {
+        "person": "Lenny Rachitsky",
+        "firm": "Angel / Lenny's Newsletter",
+        "summary": "\ud83e\udde0 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
+        "category": "market_commentary",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
+        "date": "2026-07-18",
+        "vertical": "Marketing / Ads",
+        "vid": "marketing-ads",
         "days": 0,
         "hard": 0
       },
@@ -1101,20 +1113,8 @@
         "vid": "climate",
         "days": 3,
         "hard": 0
-      },
-      {
-        "person": "Radical Ventures",
-        "firm": "Radical Ventures",
-        "summary": "Prime Intellect: Owning the Learning Loop",
-        "category": "market_commentary",
-        "url": "https://radical.vc/prime-intellect-owning-the-learning-loop/?utm_source=rss&utm_medium=rss&utm_campaign=prime-intellect-owning-the-learning-loop",
-        "date": "2026-07-13",
-        "vertical": "AI / ML Infra",
-        "vid": "ai-ml",
-        "days": 5,
-        "hard": 0
       }
     ],
-    "total_signals": 7274
+    "total_signals": 7295
   }
 }
