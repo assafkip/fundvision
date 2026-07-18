@@ -90,6 +90,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_4da21297356b",
+    "person_name": "CleanTechnica",
+    "firm": "CleanTechnica",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "EVs At 98.3% Share In Norway \u2013 Tesla Model Y Leads",
+    "excerpt": "The second quarter of 2026 saw plugin EVs at 98.1% share in Norway, up from 96.7% in Q2 2025. BEV share grew year on year (YoY), and PHEV share declined. Overall Q2 auto volume was 46,221 units, up...",
+    "source_url": "https://cleantechnica.com/2026/07/18/evs-at-98-3-share-in-norway-tesla-model-y-leads/",
+    "source_type": "blog",
+    "source_date": "2026-07-18",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-18T11:12:39Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_2776b2e52abc",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",
