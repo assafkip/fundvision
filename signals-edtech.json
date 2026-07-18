@@ -288,6 +288,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_06d4d9041fe1",
+    "person_name": "Inside Higher Ed",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "An Agency That Supports Health-Care Improvement Cuts Off Grant Funding",
+    "excerpt": "An Agency That Supports Health-Care Improvement Cuts Off Grant Funding Ryan Quinn Fri, 07/17/2026 - 06:15 PM The Agency for Healthcare Research and Quality sent researchers letters this week saying...",
+    "source_url": "https://www.insidehighered.com/news/government/science-research-policy/2026/07/17/agency-supports-health-care-improvement-cuts",
+    "source_type": "news",
+    "source_date": "2026-07-17",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-17T22:15:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_34aabbcd4e87",
     "person_name": "The 74",
     "firm": "The 74 Million",
