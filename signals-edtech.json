@@ -18,6 +18,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_627453137610",
+    "person_name": "EdSurge",
+    "firm": "EdSurge",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "These Hip-Hop Artists Were Already Teaching",
+    "excerpt": "A new degree program credentials hip-hop artists to bring communal, real-world learning to the classroom.",
+    "source_url": "https://edsurge.com/news/these-hip-hop-artists-were-already-teaching",
+    "source_type": "blog",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T00:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_adaccd992f07",
     "person_name": "The 74",
     "firm": "The 74 Million",
