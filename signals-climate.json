@@ -126,6 +126,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_9ea63de85d30",
+    "person_name": "Electrek",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "portfolio_win",
+    "summary": "Pilot hits new EV milestone with 300th DC fast charging location",
+    "excerpt": "Pilot travel centers are welcoming America\u2019s summer road trippers with a number of new locations, an expanded, \u201ccoast-to-coast\u201d EV charging network that offers 24/7 convenience and healthier c-store...",
+    "source_url": "https://electrek.co/2026/07/19/pilot-hits-new-ev-milestone-with-300th-dc-fast-charging-location/",
+    "source_type": "news",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T20:27:32Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_a592e2fdcbec",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",

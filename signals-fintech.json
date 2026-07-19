@@ -90,6 +90,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_72cadfafb4aa",
+    "person_name": "Crowdfund Insider",
+    "firm": "news",
+    "signal_type": "hard",
+    "signal_category": "exit_signal",
+    "summary": "SEC SBCFAC to Meet to Review  Modernizing IPOs, Capital Formation",
+    "excerpt": "The Securities and Exchange Commission (SEC), Small Business Capital Formation Advisory Committee (SBCFAC) will meet this week to discuss initial public offerings (IPOs) and capital formation. Part...",
+    "source_url": "https://www.crowdfundinsider.com/2026/07/292682-sec-sbcfac-to-meet-to-review-modernizing-ipos-capital-formation/",
+    "source_type": "news",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T19:07:25Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_14c8bbefc51b",
     "person_name": "Crowdfund Insider",
     "firm": "news",

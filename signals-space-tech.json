@@ -72,6 +72,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_9ed23452c623",
+    "person_name": "Universe Today",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "NASA's Perseverance Rover Uncovers Evidence of 4 Billion Year Old Impacts",
+    "excerpt": "Old rocks exposed on the rim of Jezero Crater preserve a roughly 4-billion-year-old cosmic \u201cweather report\u201d from the solar system\u2019s most dynamic era.",
+    "source_url": "https://www.universetoday.com/articles/nasas-perseverance-rover-uncovers-evidence-of-4-billion-year-old-impacts",
+    "source_type": "news",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T20:00:11Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_23a94f9d7536",
     "person_name": "SpaceNews",
     "firm": "SpaceNews",

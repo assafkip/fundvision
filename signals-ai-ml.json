@@ -198,6 +198,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_e3ff1827ce6f",
+    "person_name": "TechCrunch AI",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Can an Apple lawsuit derail OpenAI\u2019s hardware plans?",
+    "excerpt": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+    "source_url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+    "source_type": "news",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T19:24:45Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_d71c19324762",
     "person_name": "Shawn Wang (swyx) / Alessio Fanelli",
     "firm": "Latent Space",
