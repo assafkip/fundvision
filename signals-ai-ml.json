@@ -36,6 +36,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_b6c5d416ee74",
+    "person_name": "Sarah Tavel",
+    "firm": "Benchmark",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "AI chatbots reading X-rays can be dangerously confident even when they're wrong",
+    "excerpt": "The RadLE 2.0 benchmark tests whether AI models in radiology can tell when they should leave a diagnosis to a human. Many models deliver wrong findings with full confidence, and human radiologists...",
+    "source_url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
+    "source_type": "blog",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T07:35:20Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_d71c19324762",
     "person_name": "Shawn Wang (swyx) / Alessio Fanelli",
     "firm": "Latent Space",
