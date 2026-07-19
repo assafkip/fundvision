@@ -36,6 +36,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_e5221b61f0bc",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "sector_pain",
+    "summary": "Book Bans, Censorship and Funding Fears Challenge Ohio Public School Librarians",
+    "excerpt": "Public school librarians in Ohio are raising alarms about book bans and funding cuts. School librarians have been navigating challenges in their work as long as they\u2019ve been among the stacks in their...",
+    "source_url": "https://www.the74million.org/article/book-bans-censorship-and-funding-fears-challenge-ohio-public-school-librarians/",
+    "source_type": "blog",
+    "source_date": "2026-07-19",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T16:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_adaccd992f07",
     "person_name": "The 74",
     "firm": "The 74 Million",
