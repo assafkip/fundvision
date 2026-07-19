@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_c1ab362d98fb",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "NYC\u2019s Mayor Asked for Parents\u2019 Opinions on Schools. Here\u2019s What Some Have to Say",
+    "excerpt": "When Zohran Mamdani became mayor of New York City, he vowed to gather community feedback on how the public schools are working. His chancellor, Kamar Samuels, has assembled working groups \u201ctasked...",
+    "source_url": "https://www.the74million.org/article/nycs-mayor-asked-for-parents-opinions-on-schools-heres-what-some-have-to-say/",
+    "source_type": "blog",
+    "source_date": "2026-07-19",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-19T10:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_adaccd992f07",
     "person_name": "The 74",
     "firm": "The 74 Million",
