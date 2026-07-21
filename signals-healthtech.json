@@ -36,6 +36,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_6f2dc7ca85e6",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "STAT+: Makers of rare disease drugs seek exemption from Trump\u2019s price-cut pilots",
+    "excerpt": "A coalition of biotech firms is lobbying to exclude orphan drugs from new federal pilot programs aimed at lowering Medicare drug costs.",
+    "source_url": "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-21",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-21T08:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_532f195cabd6",
     "person_name": "Digital Health Wire",
     "firm": "Digital Health Wire",

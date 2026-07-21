@@ -126,6 +126,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_946f498561a3",
+    "person_name": "CleanTechnica",
+    "firm": "CleanTechnica",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "EVs Take 67.0% Share In Sweden \u2013 Volvo EX40 Leads",
+    "excerpt": "The second quarter of 2026 saw plugin EVs take 67.0% share in Sweden, up from 62.5% in Q2 2025. BEV share grew strongly year on year (YoY), and PHEVs also grew. Overall Q2 auto volume was 79,891...",
+    "source_url": "https://cleantechnica.com/2026/07/21/evs-take-67-0-share-in-sweden-volvo-ex40-leads/",
+    "source_type": "blog",
+    "source_date": "2026-07-21",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-21T08:34:23Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_2ea9899e880c",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",
