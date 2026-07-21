@@ -234,6 +234,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_610fc5523ef9",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "STAT+: Rare disease drugmakers try to avoid Trump price cuts",
+    "excerpt": "Plus, GOP voters want a crackdown on health care fraud, and how PBMs are skirting state laws.",
+    "source_url": "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-21",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-21T18:17:34Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_532f195cabd6",
     "person_name": "Digital Health Wire",
     "firm": "Digital Health Wire",

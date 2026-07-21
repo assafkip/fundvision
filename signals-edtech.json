@@ -252,6 +252,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_1b4f8380388b",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Mental Health Programs Could Bear the Brunt of $600M Federal Cuts to Texas Schools",
+    "excerpt": "As Texas schools face at least $600 million in federal funding cuts, multiple mental health programs, particularly those implemented in response to the pandemic and mass shootings, are at risk of...",
+    "source_url": "https://www.the74million.org/article/mental-health-programs-could-bear-the-brunt-of-600m-federal-cuts-to-texas-schools/",
+    "source_type": "blog",
+    "source_date": "2026-07-21",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-21T18:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_2479f9819b6b",
     "person_name": "The Hechinger Report",
     "firm": "news",
