@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_59688a32c13f",
+    "person_name": "ESG Today",
+    "firm": "news",
+    "signal_type": "hard",
+    "signal_category": "exit_signal",
+    "summary": "Brookfield Acquires Battery Storage Giant Aypa from BlackStone",
+    "excerpt": "Brookfield Asset Management announced today an agreement to acquire Aypa Power, the largest standalone battery [&#8230;]",
+    "source_url": "https://www.esgtoday.com/brookfield-acquires-battery-storage-giant-aypa-from-blackstone-at-7-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=brookfield-acquires-battery-storage-giant-aypa-from-blackstone-at-7-billion-valuation",
+    "source_type": "news",
+    "source_date": "2026-07-23",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-23T09:34:14Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_15471814417f",
     "person_name": "ESG Today",
     "firm": "news",

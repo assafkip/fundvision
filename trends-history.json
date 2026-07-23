@@ -239,15 +239,15 @@
   {
     "date": "2026-07-23",
     "totals": {
-      "cyber": 5868,
-      "fintech": 923,
+      "cyber": 5911,
+      "fintech": 931,
       "ai-ml": 637,
-      "healthtech": 315,
-      "climate": 603,
-      "edtech": 284,
-      "marketing-ads": 291,
-      "space-tech": 476,
-      "coexistence-empowerment": 193
+      "healthtech": 319,
+      "climate": 606,
+      "edtech": 291,
+      "marketing-ads": 293,
+      "space-tech": 478,
+      "coexistence-empowerment": 194
     }
   }
 ]
