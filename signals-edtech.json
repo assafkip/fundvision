@@ -270,6 +270,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_ccf373ac835c",
+    "person_name": "Inside Higher Ed",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Trump Administration Drops Demand for Names of Jewish Penn Employees",
+    "excerpt": "Trump Administration Drops Demand for Names of Jewish Penn Employees Emma Whitford Thu, 07/23/2026 - 02:35 PM Byline(s) Emma Whitford",
+    "source_url": "https://www.insidehighered.com/news/quick-takes/2026/07/23/trump-admin-drops-demand-names-jewish-penn-employees",
+    "source_type": "news",
+    "source_date": "2026-07-23",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-23T18:35:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_6f659ebc0e4c",
     "person_name": "EdSurge",
     "firm": "EdSurge",
