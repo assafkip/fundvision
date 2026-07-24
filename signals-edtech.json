@@ -216,6 +216,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_0c6e1e0f6254",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Students Convene to Hammer Out AI Bill of Rights for Schools",
+    "excerpt": "BOSTON \u2014 Tatiyana Reaves got into trouble recently for writing a one-syllable word \u2014 and not the one you\u2019d think. Taking a computer class at her Fayetteville, N.C., high school, she handed in a paper...",
+    "source_url": "https://www.the74million.org/article/students-convene-to-hammer-out-ai-bill-of-rights-for-schools/",
+    "source_type": "blog",
+    "source_date": "2026-07-24",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T16:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_8af7e112eb97",
     "person_name": "Inside Higher Ed",
     "firm": "news",
