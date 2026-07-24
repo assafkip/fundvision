@@ -108,6 +108,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_0628e9b0e9d8",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "A new, separate outbreak of the diarrhea-causing parasite",
+    "excerpt": "A win for peptide proponents, autism advisory committees clash, and more health news from Morning Rounds",
+    "source_url": "https://www.statnews.com/2026/07/24/health-news-new-separate-cyclospora-diarrhea-outbreak/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-24",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T11:59:27Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_3e24b4aaf423",
     "person_name": "Digital Health Wire",
     "firm": "Digital Health Wire",

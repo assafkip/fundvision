@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-24T11:01:36Z",
+  "generated": "2026-07-24T13:28:59Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 332,
-    "deal_rows_attributed": 170,
+    "deal_rows_seen": 333,
+    "deal_rows_attributed": 171,
     "funds_tracked": 83,
     "fetch_attempts": 35,
     "fetchable_pct": 0,
@@ -87,6 +87,65 @@
           "date": "2026-07-04",
           "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
+      "fund": "Battery Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 6 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 4,
+          "weight": 4.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-24",
+          "summary": "AegisAI Raises $36 Million for AI-Powered Email Security",
+          "url": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-23",
+          "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-23",
+          "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-08",
+          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
         }
       ]
     },
@@ -220,59 +279,6 @@
           "date": "2026-06-16",
           "summary": "The next generation of analytics: Why we invested in Golden Analytics",
           "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
-        }
-      ]
-    },
-    {
-      "fund": "Battery Ventures",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-      "coverage": 5,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 5,
-      "recent90": 5,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-23",
-          "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-23",
-          "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-08",
-          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-08",
-          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
         }
       ]
     },
@@ -3193,10 +3199,10 @@
     "Cybersecurity": [
       {
         "fund": "Battery Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 3,
-        "recent30": 5
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 4,
+        "recent30": 6
       },
       {
         "fund": "Khosla Ventures",
@@ -3628,6 +3634,13 @@
         "recent30": 7
       },
       {
+        "fund": "Battery Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 6
+      },
+      {
         "fund": "Nvidia",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 6 in the last 30d.",
         "coverage": 6,
@@ -3638,13 +3651,6 @@
         "fund": "Insight Partners",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
         "coverage": 6,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Battery Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
         "sector_count": 2,
         "recent30": 5
       },

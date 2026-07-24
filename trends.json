@@ -1,58 +1,58 @@
 {
-  "generated": "2026-07-24T11:01:34Z",
+  "generated": "2026-07-24T13:28:56Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 6319,
-      "recent7": 2081,
+      "total": 6362,
+      "recent7": 2124,
       "sparkline": [
         159,
         1538,
         2347,
-        2081
+        2124
       ],
-      "momentum_pct": 51,
+      "momentum_pct": 52,
       "momentum_basis": "7d",
-      "hard_count": 256,
-      "hard_ratio": 0.041,
+      "hard_count": 257,
+      "hard_ratio": 0.04,
       "exit_count": 22,
-      "talk_count": 5973,
-      "whitespace_score": 23.3,
+      "talk_count": 6015,
+      "whitespace_score": 23.4,
       "rising": [
         {
           "term": "security",
-          "count": 953,
-          "delta": 527
+          "count": 960,
+          "delta": 534
         },
         {
           "term": "x2026",
-          "count": 630,
-          "delta": 465
+          "count": 634,
+          "delta": 469
         },
         {
           "term": "prnewswire",
-          "count": 588,
-          "delta": 399
+          "count": 590,
+          "delta": 401
         },
         {
           "term": "cybersecurity",
-          "count": 529,
-          "delta": 361
+          "count": 534,
+          "delta": 366
         },
         {
           "term": "removed",
-          "count": 341,
-          "delta": 237
+          "count": 345,
+          "delta": 241
         },
         {
           "term": "x2019",
-          "count": 325,
-          "delta": 225
+          "count": 328,
+          "delta": 228
         },
         {
           "term": "data",
-          "count": 349,
-          "delta": 178
+          "count": 353,
+          "delta": 182
         },
         {
           "term": "law",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1617
+          "count": 1628
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 778
+          "count": 784
         },
         {
           "name": "ProductHunt",
@@ -79,42 +79,42 @@
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 148
+          "count": 150
         },
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 51
+          "count": 52
         },
         {
           "name": "Ping Li",
           "firm": "Accel",
-          "count": 40
+          "count": 41
         }
       ]
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 990,
-      "recent7": 312,
+      "total": 999,
+      "recent7": 321,
       "sparkline": [
         41,
         273,
         328,
-        312
+        321
       ],
-      "momentum_pct": 46,
+      "momentum_pct": 48,
       "momentum_basis": "7d",
       "hard_count": 92,
-      "hard_ratio": 0.093,
-      "exit_count": 31,
-      "talk_count": 828,
-      "whitespace_score": 9.0,
+      "hard_ratio": 0.092,
+      "exit_count": 32,
+      "talk_count": 836,
+      "whitespace_score": 9.1,
       "rising": [
         {
           "term": "digital",
-          "count": 127,
-          "delta": 82
+          "count": 132,
+          "delta": 87
         },
         {
           "term": "payments",
@@ -123,13 +123,18 @@
         },
         {
           "term": "financial",
-          "count": 143,
-          "delta": 57
+          "count": 145,
+          "delta": 59
+        },
+        {
+          "term": "bank",
+          "count": 140,
+          "delta": 54
         },
         {
           "term": "platform",
-          "count": 83,
-          "delta": 53
+          "count": 84,
+          "delta": 54
         },
         {
           "term": "million",
@@ -142,11 +147,6 @@
           "delta": 52
         },
         {
-          "term": "bank",
-          "count": 137,
-          "delta": 51
-        },
-        {
           "term": "crypto",
           "count": 76,
           "delta": 44
@@ -156,12 +156,12 @@
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 33
+          "count": 34
         },
         {
           "name": "Tearsheet",
           "firm": "Tearsheet",
-          "count": 13
+          "count": 14
         },
         {
           "name": "CB Insights",
@@ -182,31 +182,36 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 668,
-      "recent7": 169,
+      "total": 669,
+      "recent7": 170,
       "sparkline": [
         51,
         181,
         221,
-        169
+        170
       ],
       "momentum_pct": 34,
       "momentum_basis": "7d",
       "hard_count": 50,
       "hard_ratio": 0.075,
       "exit_count": 11,
-      "talk_count": 586,
+      "talk_count": 587,
       "whitespace_score": 11.7,
       "rising": [
         {
           "term": "models",
-          "count": 87,
-          "delta": 48
+          "count": 89,
+          "delta": 50
         },
         {
           "term": "openai",
           "count": 107,
           "delta": 39
+        },
+        {
+          "term": "google",
+          "count": 61,
+          "delta": 35
         },
         {
           "term": "open",
@@ -217,11 +222,6 @@
           "term": "data",
           "count": 47,
           "delta": 35
-        },
-        {
-          "term": "google",
-          "count": 60,
-          "delta": 34
         },
         {
           "term": "apple",
@@ -274,26 +274,26 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 358,
-      "recent7": 98,
+      "total": 359,
+      "recent7": 99,
       "sparkline": [
         22,
         103,
         109,
-        98
+        99
       ],
       "momentum_pct": 39,
       "momentum_basis": "7d",
       "hard_count": 18,
       "hard_ratio": 0.05,
       "exit_count": 5,
-      "talk_count": 329,
+      "talk_count": 330,
       "whitespace_score": 18.3,
       "rising": [
         {
           "term": "health",
-          "count": 101,
-          "delta": 46
+          "count": 102,
+          "delta": 47
         },
         {
           "term": "stat",
@@ -335,7 +335,7 @@
         {
           "name": "STAT News",
           "firm": "STAT",
-          "count": 113
+          "count": 114
         },
         {
           "name": "MedCity News",
@@ -366,21 +366,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 650,
-      "recent7": 184,
+      "total": 657,
+      "recent7": 191,
       "sparkline": [
         43,
         196,
         208,
-        184
+        191
       ],
-      "momentum_pct": 42,
+      "momentum_pct": 44,
       "momentum_basis": "7d",
       "hard_count": 26,
       "hard_ratio": 0.04,
       "exit_count": 3,
-      "talk_count": 610,
-      "whitespace_score": 23.5,
+      "talk_count": 617,
+      "whitespace_score": 23.7,
       "rising": [
         {
           "term": "electric",
@@ -393,14 +393,14 @@
           "delta": 39
         },
         {
+          "term": "tesla",
+          "count": 78,
+          "delta": 37
+        },
+        {
           "term": "battery",
           "count": 54,
           "delta": 35
-        },
-        {
-          "term": "tesla",
-          "count": 75,
-          "delta": 34
         },
         {
           "term": "energy",
@@ -409,8 +409,8 @@
         },
         {
           "term": "grid",
-          "count": 42,
-          "delta": 27
+          "count": 45,
+          "delta": 30
         },
         {
           "term": "america",
@@ -418,16 +418,16 @@
           "delta": 25
         },
         {
-          "term": "power",
-          "count": 86,
-          "delta": 23
+          "term": "evs",
+          "count": 34,
+          "delta": 24
         }
       ],
       "movers": [
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 156
+          "count": 158
         },
         {
           "name": "Utility Dive",
@@ -442,7 +442,7 @@
         {
           "name": "Latitude Media",
           "firm": "Latitude Media",
-          "count": 19
+          "count": 21
         },
         {
           "name": "David Roberts",
@@ -458,26 +458,26 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 310,
-      "recent7": 78,
+      "total": 312,
+      "recent7": 80,
       "sparkline": [
         21,
         90,
         98,
-        78
+        80
       ],
-      "momentum_pct": 34,
+      "momentum_pct": 35,
       "momentum_basis": "7d",
       "hard_count": 8,
       "hard_ratio": 0.026,
       "exit_count": 0,
-      "talk_count": 298,
-      "whitespace_score": 37.2,
+      "talk_count": 300,
+      "whitespace_score": 37.5,
       "rising": [
         {
           "term": "school",
-          "count": 50,
-          "delta": 19
+          "count": 51,
+          "delta": 20
         },
         {
           "term": "byline",
@@ -519,12 +519,12 @@
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 51
+          "count": 52
         },
         {
           "name": "Class Central",
           "firm": "Class Central Report",
-          "count": 17
+          "count": 18
         },
         {
           "name": "EdSurge",
@@ -540,21 +540,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 314,
-      "recent7": 86,
+      "total": 316,
+      "recent7": 88,
       "sparkline": [
         26,
         99,
         93,
-        86
+        88
       ],
-      "momentum_pct": 38,
+      "momentum_pct": 39,
       "momentum_basis": "7d",
       "hard_count": 6,
       "hard_ratio": 0.019,
       "exit_count": 2,
-      "talk_count": 302,
-      "whitespace_score": 50.3,
+      "talk_count": 304,
+      "whitespace_score": 50.7,
       "rising": [
         {
           "term": "brand",
@@ -563,18 +563,28 @@
         },
         {
           "term": "sports",
-          "count": 24,
-          "delta": 20
+          "count": 25,
+          "delta": 21
         },
         {
           "term": "world",
-          "count": 26,
-          "delta": 15
+          "count": 28,
+          "delta": 17
         },
         {
           "term": "marketing",
-          "count": 42,
-          "delta": 13
+          "count": 43,
+          "delta": 14
+        },
+        {
+          "term": "cup",
+          "count": 24,
+          "delta": 14
+        },
+        {
+          "term": "world cup",
+          "count": 24,
+          "delta": 14
         },
         {
           "term": "media",
@@ -583,18 +593,8 @@
         },
         {
           "term": "rsquo",
-          "count": 25,
-          "delta": 12
-        },
-        {
-          "term": "cup",
-          "count": 22,
-          "delta": 12
-        },
-        {
-          "term": "world cup",
-          "count": 22,
-          "delta": 12
+          "count": 26,
+          "delta": 13
         }
       ],
       "movers": [
@@ -627,26 +627,26 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 501,
-      "recent7": 119,
+      "total": 506,
+      "recent7": 124,
       "sparkline": [
         42,
         158,
         147,
-        119
+        124
       ],
-      "momentum_pct": 31,
+      "momentum_pct": 32,
       "momentum_basis": "7d",
       "hard_count": 37,
-      "hard_ratio": 0.074,
+      "hard_ratio": 0.073,
       "exit_count": 7,
-      "talk_count": 436,
-      "whitespace_score": 11.8,
+      "talk_count": 441,
+      "whitespace_score": 11.9,
       "rising": [
         {
           "term": "space",
-          "count": 205,
-          "delta": 63
+          "count": 210,
+          "delta": 68
         },
         {
           "term": "spacex",
@@ -655,8 +655,8 @@
         },
         {
           "term": "launch",
-          "count": 99,
-          "delta": 34
+          "count": 100,
+          "delta": 35
         },
         {
           "term": "starship",
@@ -680,20 +680,20 @@
         },
         {
           "term": "orbit",
-          "count": 45,
-          "delta": 19
+          "count": 46,
+          "delta": 20
         }
       ],
       "movers": [
         {
           "name": "SpaceNews",
           "firm": "SpaceNews",
-          "count": 64
+          "count": 65
         },
         {
           "name": "Payload",
           "firm": "Payload Space",
-          "count": 26
+          "count": 29
         },
         {
           "name": "European Spaceflight",
@@ -719,20 +719,20 @@
     },
     "coexistence-empowerment": {
       "label": "Coexistence / Empowerment",
-      "total": 210,
-      "recent7": 69,
+      "total": 212,
+      "recent7": 71,
       "sparkline": [
         27,
         47,
         47,
-        69
+        71
       ],
-      "momentum_pct": 49,
+      "momentum_pct": 50,
       "momentum_basis": "7d",
       "hard_count": 34,
-      "hard_ratio": 0.162,
+      "hard_ratio": 0.16,
       "exit_count": 15,
-      "talk_count": 156,
+      "talk_count": 158,
       "whitespace_score": 4.6,
       "rising": [
         {
@@ -790,63 +790,63 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2081,
-        "momentum_pct": 51,
+        "recent7": 2124,
+        "momentum_pct": 52,
         "momentum_basis": "7d",
-        "total": 6319,
+        "total": 6362,
         "sparkline": [
           159,
           1538,
           2347,
-          2081
+          2124
         ],
-        "hard_ratio": 0.041,
-        "whitespace_score": 23.3
+        "hard_ratio": 0.04,
+        "whitespace_score": 23.4
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 312,
-        "momentum_pct": 46,
+        "recent7": 321,
+        "momentum_pct": 48,
         "momentum_basis": "7d",
-        "total": 990,
+        "total": 999,
         "sparkline": [
           41,
           273,
           328,
-          312
+          321
         ],
-        "hard_ratio": 0.093,
-        "whitespace_score": 9.0
+        "hard_ratio": 0.092,
+        "whitespace_score": 9.1
       },
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 184,
-        "momentum_pct": 42,
+        "recent7": 191,
+        "momentum_pct": 44,
         "momentum_basis": "7d",
-        "total": 650,
+        "total": 657,
         "sparkline": [
           43,
           196,
           208,
-          184
+          191
         ],
         "hard_ratio": 0.04,
-        "whitespace_score": 23.5
+        "whitespace_score": 23.7
       },
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 169,
+        "recent7": 170,
         "momentum_pct": 34,
         "momentum_basis": "7d",
-        "total": 668,
+        "total": 669,
         "sparkline": [
           51,
           181,
           221,
-          169
+          170
         ],
         "hard_ratio": 0.075,
         "whitespace_score": 11.7
@@ -854,31 +854,31 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 119,
-        "momentum_pct": 31,
+        "recent7": 124,
+        "momentum_pct": 32,
         "momentum_basis": "7d",
-        "total": 501,
+        "total": 506,
         "sparkline": [
           42,
           158,
           147,
-          119
+          124
         ],
-        "hard_ratio": 0.074,
-        "whitespace_score": 11.8
+        "hard_ratio": 0.073,
+        "whitespace_score": 11.9
       },
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 98,
+        "recent7": 99,
         "momentum_pct": 39,
         "momentum_basis": "7d",
-        "total": 358,
+        "total": 359,
         "sparkline": [
           22,
           103,
           109,
-          98
+          99
         ],
         "hard_ratio": 0.05,
         "whitespace_score": 18.3
@@ -886,87 +886,87 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 86,
-        "momentum_pct": 38,
+        "recent7": 88,
+        "momentum_pct": 39,
         "momentum_basis": "7d",
-        "total": 314,
+        "total": 316,
         "sparkline": [
           26,
           99,
           93,
-          86
+          88
         ],
         "hard_ratio": 0.019,
-        "whitespace_score": 50.3
+        "whitespace_score": 50.7
       },
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 78,
-        "momentum_pct": 34,
+        "recent7": 80,
+        "momentum_pct": 35,
         "momentum_basis": "7d",
-        "total": 310,
+        "total": 312,
         "sparkline": [
           21,
           90,
           98,
-          78
+          80
         ],
         "hard_ratio": 0.026,
-        "whitespace_score": 37.2
+        "whitespace_score": 37.5
       },
       {
         "id": "coexistence-empowerment",
         "label": "Coexistence / Empowerment",
-        "recent7": 69,
-        "momentum_pct": 49,
+        "recent7": 71,
+        "momentum_pct": 50,
         "momentum_basis": "7d",
-        "total": 210,
+        "total": 212,
         "sparkline": [
           27,
           47,
           47,
-          69
+          71
         ],
-        "hard_ratio": 0.162,
+        "hard_ratio": 0.16,
         "whitespace_score": 4.6
       }
     ],
     "rising": [
       {
         "term": "security",
-        "count": 1016,
-        "delta": 580
+        "count": 1023,
+        "delta": 587
       },
       {
         "term": "x2026",
-        "count": 630,
-        "delta": 465
+        "count": 634,
+        "delta": 469
       },
       {
         "term": "prnewswire",
-        "count": 588,
-        "delta": 399
+        "count": 590,
+        "delta": 401
       },
       {
         "term": "cybersecurity",
-        "count": 548,
-        "delta": 377
+        "count": 553,
+        "delta": 382
       },
       {
         "term": "data",
-        "count": 518,
-        "delta": 251
+        "count": 523,
+        "delta": 256
       },
       {
         "term": "removed",
-        "count": 341,
-        "delta": 236
+        "count": 345,
+        "delta": 240
       },
       {
         "term": "x2019",
-        "count": 325,
-        "delta": 225
+        "count": 328,
+        "delta": 228
       },
       {
         "term": "firm",
@@ -975,13 +975,13 @@
       },
       {
         "term": "every",
-        "count": 261,
-        "delta": 181
+        "count": 262,
+        "delta": 182
       },
       {
         "term": "platform",
-        "count": 296,
-        "delta": 175
+        "count": 298,
+        "delta": 177
       }
     ],
     "highlights": [
@@ -1106,6 +1106,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 10320
+    "total_signals": 10392
   }
 }
