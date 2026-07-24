@@ -234,6 +234,24 @@
     "source_kind": "media"
   },
   {
+    "id": "rss_8f73d3ee7f72",
+    "person_name": "The 74",
+    "firm": "The 74 Million",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "What the Data Says About Rhode Island\u2019s 7-year Takeover of Providence Schools",
+    "excerpt": "By some metrics, things are looking up for the Providence Public School District (PPSD). Students are coming to class more often. Their standardized test scores are rising. And more of them are...",
+    "source_url": "https://www.the74million.org/article/what-the-data-says-about-rhode-islands-7-year-takeover-of-providence-schools/",
+    "source_type": "blog",
+    "source_date": "2026-07-24",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T18:30:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_8af7e112eb97",
     "person_name": "Inside Higher Ed",
     "firm": "news",
