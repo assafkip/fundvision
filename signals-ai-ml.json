@@ -18,6 +18,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_c0ab8892dda6",
+    "person_name": "Shawn Wang (swyx) / Alessio Fanelli",
+    "firm": "Latent Space",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+    "excerpt": "A HUGE win for BFL!",
+    "source_url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+    "source_type": "blog",
+    "source_date": "2026-07-24",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T04:30:12Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_0317d37343da",
     "person_name": "Shawn Wang (swyx) / Alessio Fanelli",
     "firm": "Latent Space",

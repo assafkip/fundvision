@@ -1,5 +1,23 @@
 [
   {
+    "id": "rss_e48261a4ba1f",
+    "person_name": "The Hechinger Report",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "sector_pain",
+    "summary": "The next literacy challenge: Teaching students how to write",
+    "excerpt": "HIGHLANDS RANCH, Colo. \u2014 It was the middle of a writing lesson in Gabrielle Grace\u2019s first grade class at Sand Creek Elementary in suburban Denver, and students were furiously jotting down details...",
+    "source_url": "https://hechingerreport.org/the-next-literacy-challenge-teaching-students-how-to-write/",
+    "source_type": "news",
+    "source_date": "2026-07-24",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T05:00:00Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_8af7e112eb97",
     "person_name": "Inside Higher Ed",
     "firm": "news",
