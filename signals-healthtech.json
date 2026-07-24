@@ -324,6 +324,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_9da16c835cda",
+    "person_name": "STAT News",
+    "firm": "STAT",
+    "signal_type": "hard",
+    "signal_category": "new_investment",
+    "summary": "Opinion: I led the FDA\u2019s food safety and nutrition center. Here\u2019s what people are missing about the cyclospora outbreak",
+    "excerpt": "\u201cConsumers should not be faced with a trade-off between nutrition and food safety,\u201d writes Susan Mayne, former director of the FDA Center for Food Safety and Applied Nutrition.",
+    "source_url": "https://www.statnews.com/2026/07/24/cyclospora-outbreak-contradiction-eat-real-food-less-safety-monitoring/?utm_campaign=rss",
+    "source_type": "blog",
+    "source_date": "2026-07-24",
+    "confidence": "high",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T19:54:09Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_3e24b4aaf423",
     "person_name": "Digital Health Wire",
     "firm": "Digital Health Wire",
