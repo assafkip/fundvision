@@ -630,6 +630,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_7976d49403c3",
+    "person_name": "CleanTechnica",
+    "firm": "CleanTechnica",
+    "signal_type": "hard",
+    "signal_category": "new_fund_raised",
+    "summary": "Ebikes Transform Transportation Options In Hilly Places",
+    "excerpt": "I&#8217;m a flatlander who was born and raised in Florida. A comment from reader &#8220;Jon&#8217;s Thoughts,&#8221; however, made me realize how much electric bikes (ebikes) are important to...",
+    "source_url": "https://cleantechnica.com/2026/07/24/ebikes-transform-transportation-options-in-hilly-places/",
+    "source_type": "blog",
+    "source_date": "2026-07-24",
+    "confidence": "high",
+    "suggested_outreach_window": "1week",
+    "source_timestamp": "2026-07-24T21:00:17Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "media"
+  },
+  {
     "id": "rss_854be490cebe",
     "person_name": "CleanTechnica",
     "firm": "CleanTechnica",

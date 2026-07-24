@@ -216,6 +216,24 @@
     "source_kind": "industry"
   },
   {
+    "id": "rss_5ef0c695360d",
+    "person_name": "ESG News",
+    "firm": "news",
+    "signal_type": "soft",
+    "signal_category": "market_commentary",
+    "summary": "Beginner\u2019s Guide to ESG",
+    "excerpt": "If you\u2019ve seen the letters \u201cESG\u201d pop up in a headline, a fund prospectus, or your company\u2019s annual report and wondered what it actually means \u2014 you\u2019re in the right... The post Beginner\u2019s Guide to ESG...",
+    "source_url": "https://esgnews.com/beginners-guide-to-esg/?utm_source=rss&utm_medium=rss&utm_campaign=beginners-guide-to-esg",
+    "source_type": "news",
+    "source_date": "2026-07-24",
+    "confidence": "med",
+    "suggested_outreach_window": "contextual",
+    "source_timestamp": "2026-07-24T20:11:59Z",
+    "matched_contacts": [],
+    "has_pipeline_match": false,
+    "source_kind": "industry"
+  },
+  {
     "id": "rss_59688a32c13f",
     "person_name": "ESG Today",
     "firm": "news",
